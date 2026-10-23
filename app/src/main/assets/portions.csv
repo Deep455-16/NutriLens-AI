@@ -1,0 +1,424 @@
+# Portion choices per food (first = standard serving). From USDA FNDDS food_portion.csv.
+label,description,grams
+apple_pie,1 small slice,75
+apple_pie,1 individual pie,150
+apple_pie,1 cup,250
+apple_pie,"1 regular pie (8-9"" dia)",1200
+apple_pie,"1 large pie (10"" dia plus)",2000
+baby_back_ribs,1 portion of ribs,105
+baby_back_ribs,"1 rib (yield after cooking, bone removed)",35
+baby_back_ribs,1 cup,135
+baklava,1 piece,80
+beef_carpaccio,1 plate (raw beef),80
+beef_carpaccio,1 cup,225
+beef_tartare,1 portion,169
+beef_tartare,1 cup,225
+beet_salad,1 bowl,170
+beignets,3 beignets,90
+beignets,1 miniature,15
+beignets,1 cup,60
+beignets,1 doughnut,75
+bibimbap,1 bowl,400
+bibimbap,1 cup,162
+bread_pudding,1 serving,100
+bread_pudding,1 cup,200
+breakfast_burrito,1 burrito,180
+bruschetta,3 pieces,129
+bruschetta,"1 slice, snack-size",14
+bruschetta,1 small or thin/very thin slice,32
+bruschetta,1 slice,43
+bruschetta,1 large or thick slice,59
+caesar_salad,1 bowl with dressing,109
+cannoli,1 pastry,70
+cannoli,1 miniature cream puff,23
+cannoli,"1 eclair (5"" x 2"" x 1-3/4"")",90
+cannoli,"1 cream puff (3-1/2"" x 2"")",100
+caprese_salad,1 plate,190
+carrot_cake,1 slice,120
+carrot_cake,"1 cupcake, any size",90
+carrot_cake,"1 piece/slice, any size",200
+ceviche,1 cup,125
+cheesecake,1 slice,125
+cheesecake,"1 piece/slice, any size",175
+cheesecake,1 cup,180
+cheese_plate,cheese and crackers,80
+chicken_curry,1 cup,240
+chicken_quesadilla,1 quesadilla,140
+chicken_quesadilla,1 triangular piece,35
+chicken_quesadilla,1 half circle,70
+chicken_quesadilla,1 cup,95
+chicken_wings,1 portion of wings,110
+chicken_wings,1 drummette,22
+chicken_wings,"1 wing, any size",55
+chocolate_cake,1 slice,120
+chocolate_cake,1 miniature/bite size,30
+chocolate_cake,1 regular cupcake,90
+chocolate_cake,1 cup,100
+chocolate_cake,"1 regular or small piece/slice, 1 layer cake",115
+chocolate_cake,"1 large piece/slice, 1 layer cake",170
+chocolate_cake,"1 regular or small piece/slice, 2+ layer cake",175
+chocolate_cake,"1 large piece/slice, 2+ layer cake",260
+chocolate_mousse,1 cup,85
+churros,1 serving,45
+churros,1 miniature,15
+clam_chowder,1 bowl,255
+clam_chowder,1 individual container,440
+clam_chowder,1 can,525
+club_sandwich,1 sandwich,145
+club_sandwich,1 miniature/slider,75
+club_sandwich,1 large,290
+crab_cakes,1 crab cake,85
+creme_brulee,1 ramekin,130
+creme_brulee,1 cup,260
+croque_madame,1 sandwich with egg,181
+cup_cakes,1 cupcake,90
+cup_cakes,1 cup,100
+cup_cakes,"1 piece/slice, any size",175
+deviled_eggs,4 halves,120
+deviled_eggs,1 egg,30
+donuts,1 doughnut,75
+donuts,1 miniature,15
+donuts,1 cup,60
+dumplings,4 dumplings,100
+dumplings,"1 item, any size",25
+dumplings,1 cup,75
+edamame,1 cup,80
+edamame,"1 pod, yields",2
+eggs_benedict,1 serving,155
+escargots,1 serving,85
+escargots,1 snail,5
+falafel,4 falafel,112
+falafel,1 patty,17
+filet_mignon,1 steak,160
+filet_mignon,"1 piece/slice, any size",30
+filet_mignon,1 thin,120
+filet_mignon,1 cup,135
+filet_mignon,1 thick,240
+fish_and_chips,fried fish with fries,270
+foie_gras,1 portion (liver pate),50
+foie_gras,1 cup,210
+french_fries,1 portion,110
+french_fries,1 shoestring,2
+french_fries,1 crinkle cut,5
+french_fries,1 waffle,8
+french_fries,1 wedge,9
+french_fries,1 cup,60
+french_fries,1 kids meal order,70
+french_fries,1 value/dollar menu order,85
+french_fries,1 medium fast food order,145
+french_fries,1 large fast food order,180
+french_onion_soup,1 bowl,245
+french_onion_soup,1 individual container,440
+french_onion_soup,1 can,525
+french_toast,2 slices,130
+french_toast,"1 slice, any size",65
+fried_calamari,1 serving,85
+fried_calamari,1 item,15
+fried_calamari,1 cup,135
+fried_rice,1 cup,198
+frozen_yogurt,1 cup,175
+frozen_yogurt,1 scoop,160
+frozen_yogurt,1 medium ice cream cup,320
+frozen_yogurt,1 large ice cream cup,480
+garlic_bread,1 serving,74
+garlic_bread,1 small slice,37
+garlic_bread,1 piece/slice Texas Toast,40
+garlic_bread,1 large slice,111
+garlic_bread,"1 mini baguette (about 9"" long)",176
+garlic_bread,"1 baguette (about 22"" long)",376
+gnocchi,1 cup,188
+gnocchi,1 piece,26
+greek_salad,1 bowl,105
+grilled_cheese_sandwich,1 sandwich,116
+grilled_salmon,1 fillet,140
+grilled_salmon,1 cup,135
+grilled_salmon,1 large fillet,210
+guacamole,1 serving,60
+guacamole,1 individual container,70
+gyoza,1 serving,75
+gyoza,"1 item, any size",25
+hamburger,1 hamburger,145
+hot_and_sour_soup,1 bowl,245
+hot_dog,1 hot dog in bun,102
+huevos_rancheros,1 serving,236
+huevos_rancheros,1 egg,118
+huevos_rancheros,1 cup,135
+hummus,1 serving,60
+hummus,1 individual container,70
+ice_cream,1 scoop,120
+ice_cream,1 slice,66
+ice_cream,1 individual container,75
+ice_cream,1 cup,135
+ice_cream,1 medium ice cream cup,240
+ice_cream,1 large ice cream cup,360
+lasagna,1 piece,250
+lasagna,"1 piece (1/6 of 8"" square, approx 2-1/2"" x 4"")",206
+lasagna,"1 piece (1/8 of 7"" x 12"", approx 3-1/2"" x 3"")",232
+lobster_bisque,1 bowl,255
+lobster_roll_sandwich,1 roll,165
+macaroni_and_cheese,1 cup,230
+macarons,1 serving (macaroon cookies),48
+macarons,1 cookie,24
+miso_soup,1 bowl,245
+mussels,1 serving,85
+mussels,1 mussel,15
+mussels,1 cup,135
+nachos,1 plate,125
+nachos,1 chip,7
+nachos,1 cup,135
+nachos,1 order,250
+omelette,1 omelette,110
+omelette,1 egg,55
+omelette,1 cup,135
+onion_rings,1 portion,120
+onion_rings,1 ring,10
+onion_rings,1 cup,50
+oysters,1 serving,85
+oysters,1 oyster,15
+oysters,1 cup,225
+pad_thai,1 plate,200
+paella,1 plate,300
+paella,1 cup,240
+pancakes,2 pancakes,100
+pancakes,1 miniature/bite size pancake,10
+pancakes,1 silver dollar pancake,20
+pancakes,1 medium pancake,50
+pancakes,1 large pancake,90
+pancakes,1 extra large pancake,150
+panna_cotta,1 cup (custard),130
+panna_cotta,1 cup,260
+peking_duck,1 serving,85
+peking_duck,"1 cup, diced, cooked",140
+pho,1 bowl,245
+pizza,2 slices,172
+pizza,"1 piece, small pizza",80
+pizza,"1 piece, medium pizza",86
+pizza,"1 piece, large pizza",119
+pizza,"1 piece, extra-large pizza",128
+pizza,"1 personal size pizza (5-7"" diameter)",175
+pizza,"1 small pizza (8-10"" diameter)",480
+pizza,"1 medium pizza (11-12"" diameter)",691
+pizza,"1 large pizza (13-15"" diameter)",954
+pizza,"1 extra-large pizza (16-18"" diameter)",1278
+pork_chop,1 chop,120
+pork_chop,"1 slice, any size",30
+pork_chop,1 thin,90
+pork_chop,1 cup,135
+pork_chop,1 thick,180
+poutine,fries with cheese and gravy,190
+prime_rib,1 restaurant slice,200
+prime_rib,1 regular/thin slice,60
+prime_rib,1 thick slice,90
+prime_rib,1 cup,135
+pulled_pork_sandwich,1 sandwich,180
+pulled_pork_sandwich,1 miniature/slider,90
+pulled_pork_sandwich,1 large sandwich,270
+ramen,1 bowl,245
+ravioli,1 plate with tomato sauce,250
+ravioli,1 piece,38
+red_velvet_cake,1 slice,120
+red_velvet_cake,"1 cupcake, any size",90
+red_velvet_cake,"1 piece/slice, any size",200
+risotto,1 plate,225
+samosa,1 samosa,75
+samosa,1 small/individual,25
+samosa,1 regular/large,100
+sashimi,6-8 slices (raw tuna),100
+sashimi,1 cup,135
+scallops,1 serving,85
+scallops,1 scallop,15
+scallops,1 cup,135
+seaweed_salad,1 small bowl,100
+shrimp_and_grits,1 bowl,325
+spaghetti_bolognese,1 plate,325
+spaghetti_carbonara,1 plate,250
+spring_rolls,1 serving,100
+spring_rolls,1 miniature egg roll,13
+spring_rolls,1 egg roll,64
+steak,1 steak,160
+steak,"1 piece/slice, any size",30
+steak,1 thin,120
+steak,1 cup,135
+steak,1 thick,240
+strawberry_shortcake,1 serving,175
+strawberry_shortcake,1 cup,150
+sushi,6 pieces,180
+sushi,1 piece,30
+sushi,1 cup,150
+tacos,1 taco,105
+tacos,1 miniature,50
+tacos,1 cup,120
+tacos,1 large,160
+takoyaki,6 balls,123
+tiramisu,1 serving,140
+tiramisu,1 cup,145
+tiramisu,1 piece,175
+tuna_tartare,1 serving,105
+waffles,1 waffle,75
+waffles,1 miniature/bite size waffle,10
+waffles,1 small waffle,40
+waffles,1 large waffle,125
+waffles,1 thick / Belgian waffle,135
+butter_naan,1 naan with butter,98
+chai,1 cup with sugar,248
+chapati,1 chapati (7 in),40
+chapati,"1 small chappatti or roti (6"")",27
+chapati,"1 large chappatti or roti (8"")",52
+chole_bhature,chole with 2 bhature,320
+dal_makhani,1 bowl,265
+dhokla,4 pieces,120
+idli,2 idli,76
+idli,1 item,38
+jalebi,1 serving (funnel cake proxy),75
+jalebi,"1 cake (6"" dia)",90
+kaathi_rolls,1 roll,162
+kadai_paneer,1 bowl (paneer counted as mozzarella),250
+kulfi,1 kulfi (ice cream proxy),70
+kulfi,1 slice,66
+kulfi,1 individual container,75
+kulfi,1 small ice cream cup,120
+kulfi,1 cup,135
+kulfi,1 medium ice cream cup,240
+kulfi,1 large ice cream cup,360
+masala_dosa,1 dosa,267
+masala_dosa,1 small,113
+masala_dosa,1 large,523
+momos,6 momos,180
+momos,"1 item, any size",25
+momos,1 cup,75
+paani_puri,6 puri,110
+pakode,1 plate (about 5 pieces),100
+pakode,1 pakora,12
+pav_bhaji,bhaji with 2 pav,280
+biryani,1 plate (chicken biryani),245
+biryani,1 cup,196
+dal,1 bowl,240
+vada_pav,1 vada pav,119
+dabeli,1 dabeli,139
+kofta,4 kofta in curry,222
+paneer_tikka,1 plate (6 pcs),150
+paneer_tikka,1 piece,25
+paneer_tikka,1 cup,140
+palak_paneer,1 bowl,220
+palak_paneer,half bowl,110
+palak_paneer,1 cup,200
+matar_paneer,1 bowl,230
+matar_paneer,half bowl,115
+matar_paneer,1 cup,200
+shahi_paneer,1 bowl,240
+shahi_paneer,half bowl,120
+shahi_paneer,1 cup,200
+dal_tadka,1 bowl,240
+dal_tadka,1 katori,150
+dal_tadka,1 cup,200
+rajma_chawal,1 plate,350
+rajma_chawal,1 bowl rajma only,200
+rajma_chawal,half plate,200
+chana_masala,1 bowl,240
+chana_masala,1 katori,150
+chana_masala,1 cup,200
+aloo_paratha,1 paratha,120
+aloo_paratha,2 parathas,240
+aloo_paratha,1 small paratha,80
+paneer_paratha,1 paratha,130
+paneer_paratha,2 parathas,260
+paneer_paratha,1 small paratha,85
+poha,1 plate,180
+poha,1 bowl,140
+poha,1 cup,120
+upma,1 bowl,180
+upma,1 cup,140
+upma,half bowl,100
+sambar,1 bowl,240
+sambar,1 cup,180
+sambar,1 katori,120
+rasam,1 bowl,200
+rasam,1 cup,150
+rasam,1 small bowl,100
+medu_vada,2 vadas,90
+medu_vada,1 vada,45
+medu_vada,1 plate (3 vadas),135
+uttapam,1 uttapam,160
+uttapam,1 small uttapam,100
+uttapam,2 uttapams,320
+khichdi,1 bowl,250
+khichdi,half bowl,130
+khichdi,1 cup,180
+aloo_gobi,1 bowl,200
+aloo_gobi,1 katori,120
+aloo_gobi,1 cup,150
+bhindi_masala,1 bowl,180
+bhindi_masala,1 katori,110
+bhindi_masala,1 cup,140
+baingan_bharta,1 bowl,200
+baingan_bharta,1 katori,120
+baingan_bharta,1 cup,150
+butter_chicken,1 bowl,250
+butter_chicken,half bowl,125
+butter_chicken,1 cup,200
+chicken_tikka,1 plate (6 pcs),160
+chicken_tikka,1 piece,27
+chicken_tikka,1 cup,130
+tandoori_chicken,1 piece (leg & thigh),220
+tandoori_chicken,half piece,110
+tandoori_chicken,1 breast piece,180
+fish_curry,1 bowl,240
+fish_curry,half bowl,120
+fish_curry,1 cup,190
+mutton_curry,1 bowl,240
+mutton_curry,half bowl,120
+mutton_curry,1 cup,190
+egg_curry,2 eggs with gravy,220
+egg_curry,1 egg with gravy,110
+egg_curry,1 cup,180
+gulab_jamun,2 pieces,80
+gulab_jamun,1 piece,40
+gulab_jamun,1 plate (3 pcs),120
+rasgulla,2 pieces,100
+rasgulla,1 piece,50
+rasgulla,1 plate (3 pcs),150
+kheer,1 bowl,180
+kheer,1 cup,150
+kheer,half bowl,90
+gajar_halwa,1 bowl,150
+gajar_halwa,half bowl,75
+gajar_halwa,1 cup,180
+lassi,1 glass,250
+lassi,1 small glass,150
+lassi,1 large glass,350
+buttermilk,1 glass,250
+buttermilk,1 small glass,150
+buttermilk,1 bottle,300
+bhel_puri,1 plate,140
+bhel_puri,1 bowl,110
+bhel_puri,half plate,70
+sev_puri,6 puris,130
+sev_puri,1 plate (8 puris),170
+sev_puri,half plate,65
+ragda_pattice,2 patties with ragda,220
+ragda_pattice,1 pattice with ragda,110
+ragda_pattice,1 plate,260
+misal_pav,misal with 2 pav,280
+misal_pav,misal only,180
+misal_pav,half portion,140
+jeera_rice,1 bowl,200
+jeera_rice,1 cup,150
+jeera_rice,half bowl,100
+pulao,1 bowl,220
+pulao,1 plate,280
+pulao,half bowl,110
+curd_rice,1 bowl,220
+curd_rice,1 cup,160
+curd_rice,half bowl,110
+raita,1 bowl,150
+raita,1 katori,100
+raita,1 cup,180
+thepla,2 theplas,90
+thepla,1 thepla,45
+thepla,3 theplas,135
+appam,2 appams,100
+appam,1 appam,50
+appam,3 appams,150
+poori_bhaji,3 pooris with bhaji,240
+poori_bhaji,2 pooris with bhaji,170
+poori_bhaji,1 poori only,35

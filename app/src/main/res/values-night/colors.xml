@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_primary">#FF5BD98C</color>
+    <color name="green_dark">#FFCFF5DD</color>
+    <!-- Snackbar actions ("Undo"); deep green: on the light snackbar -->
+    <color name="primary_inverse">#FF14874A</color>
+    <!-- Text on brand-green and calendar-status fills (near-black: readable on that mode's fills) -->
+    <color name="on_accent">#FF0B2416</color>
+    <color name="on_accent_muted">#B30B2416</color>
+    <color name="green_light">#FF173623</color>
+    <color name="on_primary">#FF062512</color>
+    <color name="brand_green">#FF5BD98C</color>
+
+    <color name="background">#FF0F1411</color>
+    <color name="surface">#FF171D19</color>
+    <color name="surface_variant">#FF202823</color>
+    <color name="outline">#FF2A332D</color>
+    <color name="text_primary">#FFEEF3EF</color>
+    <color name="text_secondary">#FFA7B2AA</color>
+    <color name="text_tertiary">#FF7D8981</color>
+
+    <color name="macro_protein">#FF8EA2FF</color>
+    <color name="macro_carbs">#FFFFC15E</color>
+    <color name="macro_fat">#FFFF9486</color>
+    <color name="macro_fiber">#FF5BD98C</color>
+
+    <color name="danger">#FFF2B8B5</color>
+    <color name="warning">#FFE2B25A</color>
+    <color name="conf_mid_text">#FFE2B25A</color>
+    <color name="conf_mid_bg">#FF372C17</color>
+    <color name="conf_low_text">#FFF2B8B5</color>
+    <color name="conf_low_bg">#FF3A1F1D</color>
+    <color name="conf_manual_text">#FFA8ABA3</color>
+    <color name="conf_manual_bg">#FF242823</color>
+    <color name="tile_green">#FF173626</color>
+    <color name="tile_blue">#FF1C2445</color>
+    <color name="tile_amber">#FF382B12</color>
+    <color name="tile_coral">#FF3B201C</color>
+    <color name="tile_icon_bg">#26FFFFFF</color>
+</resources>

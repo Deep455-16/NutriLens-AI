@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hairline between rows that start with a 48dp photo (16 + 48 + 14 = 78dp inset) -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="78dp">
+    <shape>
+        <solid android:color="@color/outline" />
+        <size android:height="1dp" />
+    </shape>
+</inset>

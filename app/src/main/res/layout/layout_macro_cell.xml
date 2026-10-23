@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One macro in a row of four: a short bar in the macro's colour, the amount, the name -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/bar"
+        android:layout_width="18dp"
+        android:layout_height="3dp"
+        android:background="@drawable/bg_macro_bar" />
+
+    <TextView
+        android:id="@+id/tvValue"
+        style="@style/NL.Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tvLabel"
+        style="@style/NL.Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

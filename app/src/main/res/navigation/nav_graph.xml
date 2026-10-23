@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nutrilens.ai.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_camera"
+            app:destination="@id/cameraFragment"
+            app:enterAnim="@anim/nl_enter"
+            app:exitAnim="@anim/nl_exit"
+            app:popEnterAnim="@anim/nl_pop_enter"
+            app:popExitAnim="@anim/nl_pop_exit" />
+        <action
+            android:id="@+id/action_home_to_details"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/nl_enter"
+            app:exitAnim="@anim/nl_exit"
+            app:popEnterAnim="@anim/nl_pop_enter"
+            app:popExitAnim="@anim/nl_pop_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.nutrilens.ai.ui.onboarding.OnboardingFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_onboarding" />
+
+    <fragment
+        android:id="@+id/foodLibraryFragment"
+        android:name="com.nutrilens.ai.ui.foods.FoodLibraryFragment"
+        android:label="Food Library"
+        tools:layout="@layout/fragment_food_library" />
+
+    <fragment
+        android:id="@+id/foodDetailFragment"
+        android:name="com.nutrilens.ai.ui.foods.FoodDetailFragment"
+        android:label="Food"
+        tools:layout="@layout/fragment_food_detail">
+        <argument
+            android:name="label"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dayFragment"
+        android:name="com.nutrilens.ai.ui.day.DayFragment"
+        android:label="Day"
+        tools:layout="@layout/fragment_day">
+        <argument
+            android:name="dayStart"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.nutrilens.ai.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/regionFragment"
+        android:name="com.nutrilens.ai.ui.region.RegionFragment"
+        android:label="Mark food"
+        tools:layout="@layout/fragment_region" />
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.nutrilens.ai.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.nutrilens.ai.ui.history.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_history_to_details"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/nl_enter"
+            app:exitAnim="@anim/nl_exit"
+            app:popEnterAnim="@anim/nl_pop_enter"
+            app:popExitAnim="@anim/nl_pop_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.nutrilens.ai.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.nutrilens.ai.ui.camera.CameraFragment"
+        android:label="Scan Meal"
+        tools:layout="@layout/fragment_camera">
+        <action
+            android:id="@+id/action_camera_to_result"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@anim/nl_enter"
+            app:exitAnim="@anim/nl_exit"
+            app:popEnterAnim="@anim/nl_pop_enter"
+            app:popExitAnim="@anim/nl_pop_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.nutrilens.ai.ui.result.ResultFragment"
+        android:label="Recognition Result"
+        tools:layout="@layout/fragment_result">
+        <action
+            android:id="@+id/action_result_to_details"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/nl_enter"
+            app:exitAnim="@anim/nl_exit"
+            app:popEnterAnim="@anim/nl_pop_enter"
+            app:popExitAnim="@anim/nl_pop_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.nutrilens.ai.ui.details.DetailsFragment"
+        android:label="Nutrition Details"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="mealId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_details_to_suggestions"
+            app:destination="@id/suggestionsFragment"
+            app:enterAnim="@anim/nl_enter"
+            app:exitAnim="@anim/nl_exit"
+            app:popEnterAnim="@anim/nl_pop_enter"
+            app:popExitAnim="@anim/nl_pop_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/suggestionsFragment"
+        android:name="com.nutrilens.ai.ui.suggestions.SuggestionsFragment"
+        android:label="Healthy Suggestions"
+        tools:layout="@layout/fragment_suggestions">
+        <argument
+            android:name="label"
+            android:defaultValue=""
+            app:argType="string" />
+        <argument
+            android:name="imageUri"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+</navigation>

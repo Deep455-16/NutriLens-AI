@@ -1,0 +1,8 @@
+4902 photos; fitted on 2451, checked on 2451
+temperature T = 0.75
+ECE before 0.108  after 0.018
+NLL before 0.799  after 0.723
+  calibrated confidence 0%-40%:  183 photos, actually correct 26.2%
+  calibrated confidence 40%-70%:  423 photos, actually correct 57.4%
+  calibrated confidence 70%-100%: 1845 photos, actually correct 92.6%
+wrote /Users/rohitsingh/Downloads/NutriLensAI/app/src/main/assets/model_info.json: {'temperature': 0.75, 'classes': 122, 'architecture': 'MobileNetV3-Large, float16 TFLite', 'accuracy': {'food101': {'images': 25250, 'top1': 0.767, 'top3': 0.9016}, 'indian': {'images': 941, 'top1': 0.8597, 'top3': 0.9447}, 'indian2': {'images': 961, 'top1': 0.9105, 'top3': 0.974}}, 'ece_before': 0.108, 'ece_after': 0.018}

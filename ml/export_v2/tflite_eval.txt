@@ -1,0 +1,2 @@
+food101: 25250 images, top-1 0.7584, top-3 0.8977
+indian: 941 images, top-1 0.8565, top-3 0.9405

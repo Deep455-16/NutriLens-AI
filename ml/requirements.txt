@@ -1,0 +1,5 @@
+tensorflow==2.15.*
+tensorflow-datasets>=4.9   # default data source
+pyarrow>=14,<18           # --parquet data source (18+ needs NumPy 2; TF 2.15 needs NumPy 1)
+pillow>=10                # verify_tflite.py
+# Apple Silicon GPU (optional): tensorflow-metal==1.1.0

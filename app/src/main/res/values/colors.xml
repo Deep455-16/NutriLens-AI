@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NutriLens palette: warm paper, ink text, one deep basil accent. Colour is used for meaning
+  (macros, status), not decoration. Night values are in values-night/colors.xml.
+-->
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Brand: deep basil -->
+    <color name="green_primary">#FF14874A</color>
+    <color name="green_dark">#FF0D4A2A</color>
+    <!-- Snackbar actions ("Undo"); light green: on the dark snackbar -->
+    <color name="primary_inverse">#FF6EE29A</color>
+    <!-- Text on brand-green and calendar-status fills (white: readable on that mode's fills) -->
+    <color name="on_accent">#FFFFFFFF</color>
+    <color name="on_accent_muted">#B3FFFFFF</color>
+    <color name="green_light">#FFDFF3E6</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <!-- Accent for text, icons and indicators (theme-aware) -->
+    <color name="brand_green">#FF14874A</color>
+
+    <!-- Surfaces and text -->
+    <color name="background">#FFF5F7F4</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_variant">#FFEEF2EC</color>
+    <color name="outline">#FFE3E8E0</color>
+    <color name="text_primary">#FF15201A</color>
+    <color name="text_secondary">#FF5B675F</color>
+    <color name="text_tertiary">#FF8C978F</color>
+
+    <!-- Macros: distinct hues with similar weight, readable on paper and on dark -->
+    <color name="macro_protein">#FF4C6FFF</color>
+    <color name="macro_carbs">#FFF5A524</color>
+    <color name="macro_fat">#FFFF6B5B</color>
+    <color name="macro_fiber">#FF20B26C</color>
+
+    <color name="danger">#FFB3261E</color>
+    <color name="warning">#FFA86A0B</color>
+    <!-- Confidence pill: text / background -->
+    <color name="conf_mid_text">#FF8A5A00</color>
+    <color name="conf_mid_bg">#FFF6EBD3</color>
+    <color name="conf_low_text">#FFA3271F</color>
+    <color name="conf_low_bg">#FFF7E1DE</color>
+    <color name="conf_manual_text">#FF5E625B</color>
+    <color name="conf_manual_bg">#FFEEEBE3</color>
+    <color name="camera_overlay">#99000000</color>
+    <!-- Home action tiles: soft tints -->
+    <color name="tile_green">#FFE3F6EA</color>
+    <color name="tile_blue">#FFE6ECFF</color>
+    <color name="tile_amber">#FFFFF1DA</color>
+    <color name="tile_coral">#FFFFE6E2</color>
+    <color name="tile_icon_bg">#FFFFFFFF</color>
+</resources>

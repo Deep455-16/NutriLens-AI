@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Camera: full-bleed preview, white frame corners, one live hint, and a plain control bar
+  (gallery · shutter · switch). Dark by design in both themes.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/frameCorners"
+        android:layout_width="272dp"
+        android:layout_height="272dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="48dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/bg_scan_frame" />
+
+    <!-- Live hint from the model / photo check, above the frame -->
+    <TextView
+        android:id="@+id/tvLive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="380dp"
+        android:background="@drawable/bg_pill"
+        android:backgroundTint="@color/camera_overlay"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="14dp"
+        android:paddingTop="7dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="7dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <!-- Top bar -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="8dp">
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            style="@style/NL.IconButton"
+            android:layout_gravity="start"
+            android:contentDescription="@string/cd_close"
+            android:src="@drawable/ic_close"
+            app:tint="@color/white" />
+
+        <ImageButton
+            android:id="@+id/btnFlash"
+            style="@style/NL.IconButton"
+            android:layout_gravity="end"
+            android:alpha="0.6"
+            android:contentDescription="@string/cd_flash"
+            android:src="@drawable/ic_flash"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+    <!-- Brief white flash when a photo is taken -->
+    <View
+        android:id="@+id/shutterFlash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:background="@color/white"
+        android:importantForAccessibility="no" />
+
+    <!-- Controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_panel_dark"
+        android:orientation="vertical"
+        android:paddingTop="18dp"
+        android:paddingBottom="28dp">
+
+        <!-- Food photo / Barcode -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/bg_camera_tabs"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/tabFood"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_camera_tab"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/mode_food"
+                android:textColor="@color/camera_tab_text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tabBarcode"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_camera_tab"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/mode_barcode"
+                android:textColor="@color/camera_tab_text"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="@string/fit_one_dish_inside_the_frame_good_lig"
+            android:textColor="@color/white_70"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/btnGallery"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_camera_round"
+                    android:contentDescription="@string/cd_choose_from_gallery"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_gallery"
+                    app:tint="@color/white" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="76dp">
+
+                <ImageButton
+                    android:id="@+id/btnCapture"
+                    android:layout_width="76dp"
+                    android:layout_height="76dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_capture"
+                    android:contentDescription="@string/cd_capture" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnTypeBarcode"
+                    style="@style/Widget.NutriLens.Button.Outlined"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:text="@string/type_barcode"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    app:strokeColor="@color/white_70" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/btnSwitch"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_camera_round"
+                    android:contentDescription="@string/cd_switch_camera"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_flip_camera"
+                    app:tint="@color/white" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Shown when camera permission is denied -->
+    <LinearLayout
+        android:id="@+id/permissionPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jakarta_extrabold"
+            android:gravity="center"
+            android:text="@string/camera_access_is_needed_to_scan_your_m"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGrant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/white"
+            android:paddingStart="28dp"
+            android:paddingEnd="28dp"
+            android:text="@string/allow_camera"
+            android:textColor="@color/black" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPickInstead"
+            style="@style/Widget.NutriLens.Button.Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/choose_a_photo_instead"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</FrameLayout>

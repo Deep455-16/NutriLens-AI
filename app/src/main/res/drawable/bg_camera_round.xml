@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Round translucent button on the camera control bar -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/white_30">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/white_15" />
+        </shape>
+    </item>
+</ripple>

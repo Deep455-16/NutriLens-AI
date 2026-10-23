@@ -1,0 +1,26 @@
+{
+ "code": "8901058851298",
+ "product": {
+  "brands": "Maggi",
+  "nutriments": {
+   "carbohydrates_100g": 44.5,
+   "energy-kcal_100g": 437,
+   "energy_100g": 1545.4,
+   "fat_100g": 15.7,
+   "fiber_100g": 3.9,
+   "proteins_100g": 10.4,
+   "salt_100g": 3.0805,
+   "saturated-fat_100g": 6.8,
+   "sodium_100g": 1.2322,
+   "sugars_100g": 5
+  },
+  "nutrition_data": "on",
+  "nutrition_data_prepared_per": "100g",
+  "product_name": "Maggi Noodles Masala 70Grm Pc",
+  "serving_quantity": 70,
+  "serving_quantity_unit": "g",
+  "serving_size": "70 g"
+ },
+ "status": 1,
+ "status_verbose": "product found"
+}

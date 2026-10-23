@@ -1,0 +1,6 @@
+Newly added dishes, indian2 test split (held out), shipped food_model.tflite, app preprocessing
+biryani     46 photos  top-1 70%  top-3 91%  most confused with fried_rice (9)
+dabeli      44 photos  top-1 89%  top-3 93%
+dal         53 photos  top-1 75%  top-3 94%  most confused with kadai_paneer (5), dal_makhani (3)
+kofta      134 photos  top-1 91%  top-3 97%  most confused with pakode (4)
+vada_pav   108 photos  top-1 92%  top-3 98%  most confused with dabeli (2)

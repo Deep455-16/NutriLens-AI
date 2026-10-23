@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- View tags used by util/Motion.kt -->
+    <item name="tag_count_value" type="id" />
+    <item name="tag_count_animator" type="id" />
+    <item name="tag_cascaded" type="id" />
+</resources>

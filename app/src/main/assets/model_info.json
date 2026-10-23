@@ -1,0 +1,24 @@
+{
+  "temperature": 0.75,
+  "classes": 122,
+  "architecture": "MobileNetV3-Large, float16 TFLite",
+  "accuracy": {
+    "food101": {
+      "images": 25250,
+      "top1": 0.767,
+      "top3": 0.9016
+    },
+    "indian": {
+      "images": 941,
+      "top1": 0.8597,
+      "top3": 0.9447
+    },
+    "indian2": {
+      "images": 961,
+      "top1": 0.9105,
+      "top3": 0.974
+    }
+  },
+  "ece_before": 0.108,
+  "ece_after": 0.018
+}

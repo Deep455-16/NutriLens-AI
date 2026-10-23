@@ -1,0 +1,17 @@
+memory 120 photos of 40 dishes; test 400; control (dishes never logged) 300
+cosine similarity: same dish median 0.45 (p90 0.60); different dish median 0.24 (p99 0.47)
+Scenario 1: other photos of dishes the user logged before (different places/plates)
+  threshold  logged dishes top-1   never-logged dishes top-1
+       none  0.815                0.763
+        0.5  0.818                0.763
+        0.6  0.815                0.763
+        0.7  0.815                0.763
+        0.8  0.815                0.763
+        0.9  0.815                0.763
+Scenario 2: 150 dishes the model got wrong, corrected once, photographed again
+  threshold  repeat photos top-1  never-logged dishes top-1
+       none  0.180                0.763
+        0.5  0.773                0.763
+        0.6  0.967                0.770
+        0.7  0.907                0.770
+        0.8  0.733                0.767

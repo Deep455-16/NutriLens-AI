@@ -1,0 +1,167 @@
+# Per serving. Built by ml/build_nutrition.py from USDA FoodData Central FNDDS 2021-2023
+# (public domain) unless the source column says otherwise. Values are typical, not measured.
+label,servingGrams,calories,protein,carbs,fat,fiber,sugar,sodiumMg,satFat,calciumMg,ironMg,potassiumMg,vitaminCMg,vitaminB12Ug,serving,source
+apple_pie,75,222,2.0,28.2,11.5,1.4,11.9,163,4.0,8.2,0.9,60.0,0.4,0.0,1 small slice,"USDA FNDDS: Pie, apple (75 g)"
+baby_back_ribs,105,267,17.0,12.7,15.9,0.3,10.4,712,5.7,44.1,0.9,247.8,0.2,0.5,1 portion of ribs,"USDA FNDDS: Pork, ribs (105 g)"
+baklava,80,352,5.3,30.0,23.5,2.0,10.2,249,8.7,32.0,1.6,136.0,1.0,0.0,1 piece,USDA FNDDS: Baklava (80 g)
+beef_carpaccio,80,173,14.0,0.3,12.5,0.2,0.1,296,4.6,22.4,1.7,209.6,0.2,1.6,1 plate (raw beef),USDA FNDDS: Steak tartare (80 g)
+beef_tartare,169,365,29.5,0.6,26.4,0.3,0.1,625,9.8,47.3,3.6,442.8,0.3,3.4,1 portion,USDA FNDDS: Steak tartare (169 g)
+beet_salad,170,231,5.9,9.2,19.3,2.4,6.9,325,6.5,109.7,2.8,278.3,7.3,0.0,1 bowl,"USDA FNDDS: Beets, NS as to form, cooked (120 g) + Cheese, goat (20 g) + Lettuce, arugula, raw (20 g) + Olive oil (10 g)"
+beignets,90,383,5.0,44.6,20.6,1.6,21.2,340,8.9,62.1,2.1,101.7,0.5,0.1,3 beignets,"USDA FNDDS: Doughnut, NFS (90 g)"
+bibimbap,400,304,22.0,32.4,9.8,4.4,6.1,1740,2.0,100.0,3.7,976.0,42.0,1.0,1 bowl,"USDA FNDDS: Bibimbap, Korean (400 g)"
+bread_pudding,100,156,5.6,23.5,4.9,1.0,15.1,206,1.7,134.0,1.0,211.0,0.2,0.2,1 serving,"USDA FNDDS: Pudding, bread (100 g)"
+breakfast_burrito,180,448,19.6,36.1,24.7,2.5,3.1,846,8.0,266.4,4.1,226.8,0.0,0.9,1 burrito,USDA FNDDS: Egg burrito (180 g)
+bruschetta,129,221,5.5,27.5,9.8,1.9,4.3,341,1.6,64.5,2.0,241.2,10.2,0.0,3 pieces,USDA FNDDS: Bruschetta (129 g)
+caesar_salad,109,223,3.8,6.9,20.0,1.6,1.8,551,4.0,99.7,0.6,206.2,3.2,0.1,1 bowl with dressing,"USDA FNDDS: Caesar salad, with romaine, no dressing (79 g) + Caesar dressing (30 g)"
+cannoli,70,185,3.3,9.0,15.1,0.3,1.6,112,8.1,22.4,0.8,51.8,0.1,0.1,1 pastry,"USDA FNDDS: Cream puff, eclair, custard or cream filled, not iced (70 g)"
+caprese_salad,190,292,15.2,7.5,22.6,1.4,4.2,424,8.6,427.9,0.4,340.9,19.6,1.0,1 plate,"USDA FNDDS: Cheese, Mozzarella, NFS (60 g) + Tomatoes, raw (120 g) + Olive oil (10 g)"
+carrot_cake,120,449,3.0,62.2,21.0,1.3,46.2,346,3.8,87.6,1.1,88.8,0.6,0.1,1 slice,"USDA FNDDS: Cake or cupcake, carrot (120 g)"
+ceviche,125,79,13.2,4.5,0.9,0.6,1.7,186,0.2,27.5,0.2,352.5,23.2,1.9,1 cup,USDA FNDDS: Ceviche (125 g)
+cheesecake,125,499,6.6,43.5,33.1,0.6,33.3,346,18.0,83.8,0.9,130.0,0.0,0.1,1 slice,"USDA FNDDS: Cheesecake, plain (125 g)"
+cheese_plate,80,331,13.7,14.9,24.0,0.5,2.9,724,11.8,533.4,1.0,101.0,0.0,0.7,cheese and crackers,"USDA FNDDS: Cheese, NFS (60 g) + Crackers, NFS (20 g)"
+chicken_curry,240,257,15.6,15.7,15.6,3.4,6.1,902,3.7,48.0,1.7,672.0,21.4,0.2,1 cup,USDA FNDDS: Chicken curry (240 g)
+chicken_quesadilla,140,402,20.2,38.2,18.2,2.7,3.0,841,7.1,259.0,3.1,214.2,0.0,0.3,1 quesadilla,"USDA FNDDS: Quesadilla, chicken (140 g)"
+chicken_wings,110,355,19.5,16.5,23.4,0.3,0.1,927,5.5,67.1,1.4,243.1,0.0,0.4,1 portion of wings,"USDA FNDDS: Chicken wing, fried, coated, from restaurant (110 g)"
+chocolate_cake,120,414,3.9,62.7,18.2,1.9,45.4,354,4.9,84.0,2.1,183.6,0.0,0.1,1 slice,"USDA FNDDS: Cake or cupcake, chocolate with chocolate icing, bakery (120 g)"
+chocolate_mousse,85,180,3.6,13.8,12.9,0.5,12.8,29,6.9,86.7,0.4,130.9,0.2,0.3,1 cup,USDA FNDDS: Mousse (85 g)
+churros,45,189,2.7,22.0,10.0,1.2,10.5,139,4.2,49.5,1.1,47.2,0.5,0.0,1 serving,USDA FNDDS: Churros (45 g)
+clam_chowder,255,237,8.0,23.6,12.2,2.5,2.4,630,6.4,48.5,1.2,471.8,14.0,3.2,1 bowl,"USDA FNDDS: Soup, New England clam chowder (255 g)"
+club_sandwich,145,339,23.2,26.7,15.3,1.2,3.6,1180,6.4,321.9,2.2,392.9,0.0,0.7,1 sandwich,"USDA FNDDS: Club sandwich or sub, restaurant (145 g)"
+crab_cakes,85,182,12.2,3.8,12.7,0.3,0.6,366,2.1,67.2,0.7,180.2,2.1,2.0,1 crab cake,"USDA FNDDS: Crab, cake (85 g)"
+creme_brulee,130,147,5.3,23.2,3.7,0.0,23.2,96,1.8,149.5,0.2,195.0,0.0,0.4,1 ramekin,USDA FNDDS: Creme brulee (130 g)
+croque_madame,181,375,24.4,30.7,17.2,1.4,3.7,1075,7.4,319.8,3.1,389.2,0.0,0.8,1 sandwich with egg,"USDA FNDDS: Ham sandwich on white (115 g) + Egg, whole, fried with butter (46 g) + Cheese, NFS (20 g)"
+cup_cakes,90,317,2.6,48.2,13.3,0.9,35.6,274,3.1,63.0,1.2,88.2,0.0,0.1,1 cupcake,"USDA FNDDS: Cake or cupcake, NFS (90 g)"
+deviled_eggs,120,238,13.8,1.3,19.1,0.0,1.3,516,4.7,55.2,1.3,139.2,0.0,1.2,4 halves,"USDA FNDDS: Egg, deviled (120 g)"
+donuts,75,320,4.1,37.1,17.1,1.4,17.6,284,7.4,51.8,1.8,84.8,0.5,0.1,1 doughnut,"USDA FNDDS: Doughnut, NFS (75 g)"
+dumplings,100,113,6.9,11.1,4.6,1.2,2.3,368,1.4,23.0,0.6,237.0,6.9,0.2,4 dumplings,"USDA FNDDS: Wonton, dumpling or pot sticker, steamed (100 g)"
+edamame,80,112,9.2,6.9,6.1,4.0,1.7,102,1.0,48.8,1.8,337.6,4.2,0.0,1 cup,"USDA FNDDS: Edamame, cooked (80 g)"
+eggs_benedict,155,446,21.4,13.1,34.3,0.9,1.8,725,15.9,89.9,2.4,503.8,2.2,0.8,1 serving,"USDA FNDDS: Egg, Benedict (155 g)"
+escargots,85,134,17.0,2.1,5.9,0.0,0.0,244,1.0,11.1,3.7,402.9,0.0,0.5,1 serving,USDA FNDDS: Escargot (85 g)
+falafel,112,576,9.3,32.4,46.1,5.4,5.1,559,6.1,96.3,2.6,290.1,8.2,0.0,4 falafel,USDA FNDDS: Falafel (112 g)
+filet_mignon,160,314,48.7,0.0,13.2,0.0,0.0,586,5.2,24.0,5.7,619.2,0.0,7.2,1 steak,"USDA FNDDS: Beef, steak, tenderloin (160 g)"
+fish_and_chips,270,672,25.7,62.2,35.6,5.4,0.6,1021,5.6,54.9,2.6,1017.0,1.3,1.9,fried fish with fries,"USDA FNDDS: Fish, haddock, fried (150 g) + Potato, french fries, restaurant (120 g)"
+foie_gras,50,100,6.7,3.3,6.5,0.0,0.0,193,2.0,5.0,4.6,47.5,5.0,4.0,1 portion (liver pate),"USDA FNDDS: Liver, paste or pate (50 g)"
+french_fries,110,318,3.8,40.9,15.4,4.3,0.3,393,2.7,18.7,1.0,599.5,1.2,0.0,1 portion,"USDA FNDDS: Potato, french fries, restaurant (110 g)"
+french_onion_soup,245,265,13.4,29.0,11.0,2.7,6.1,926,5.8,338.1,1.6,227.8,7.1,0.5,1 bowl,"USDA FNDDS: Soup, French onion (245 g)"
+french_toast,130,355,13.5,42.0,14.8,1.6,13.1,393,4.2,185.9,3.1,175.5,0.0,0.5,2 slices,"USDA FNDDS: French toast, plain (130 g)"
+fried_calamari,85,199,11.7,12.0,11.2,0.4,0.2,320,1.6,33.1,1.2,179.3,2.5,0.7,1 serving,"USDA FNDDS: Calamari, fried (85 g)"
+fried_rice,198,345,7.6,64.3,6.3,2.2,1.2,715,1.0,21.8,0.9,136.6,7.5,0.0,1 cup,"USDA FNDDS: Rice, fried, NFS (198 g)"
+frozen_yogurt,175,222,5.2,37.8,6.3,0.0,34.9,110,4.1,175.0,0.8,273.0,1.2,0.1,1 cup,"USDA FNDDS: Frozen yogurt, NFS (175 g)"
+garlic_bread,74,258,6.2,30.8,12.3,1.9,2.7,459,3.9,20.0,2.2,76.2,0.1,0.1,1 serving,"USDA FNDDS: Garlic bread, from fast food / restaurant (74 g)"
+gnocchi,188,254,4.6,32.3,11.9,1.9,1.9,525,6.4,41.4,1.6,261.3,3.6,0.1,1 cup,"USDA FNDDS: Gnocchi, potato (188 g)"
+greek_salad,105,50,2.9,4.6,2.4,1.6,1.5,258,0.9,59.9,0.9,239.4,5.8,0.1,1 bowl,"USDA FNDDS: Greek Salad, no dressing (105 g)"
+grilled_cheese_sandwich,116,398,12.8,32.6,24.1,1.4,5.2,954,11.6,575.4,2.3,161.2,0.0,0.6,1 sandwich,"USDA FNDDS: Grilled cheese sandwich, NFS (116 g)"
+grilled_salmon,140,363,36.3,0.0,23.1,0.0,0.0,403,5.3,15.4,0.6,645.4,4.2,5.5,1 fillet,"USDA FNDDS: Fish, salmon, grilled (140 g)"
+guacamole,60,93,1.2,5.1,8.5,3.9,0.4,206,1.2,7.2,0.3,283.2,6.1,0.0,1 serving,"USDA FNDDS: Guacamole, NFS (60 g)"
+gyoza,75,144,6.6,10.5,8.3,1.1,2.2,350,1.9,22.5,0.6,225.8,6.6,0.2,1 serving,"USDA FNDDS: Wonton, dumpling or pot sticker, fried (75 g)"
+hamburger,145,418,25.4,30.0,20.9,1.0,4.3,515,8.0,95.7,4.1,332.1,0.7,2.4,1 hamburger,"USDA FNDDS: Hamburger, NFS (145 g)"
+hot_and_sour_soup,245,96,6.3,10.7,3.0,1.2,1.0,921,0.6,46.5,1.6,134.8,0.0,0.2,1 bowl,"USDA FNDDS: Soup, hot and sour (245 g)"
+hot_dog,102,302,11.1,24.2,17.7,0.8,4.0,695,6.9,73.4,2.2,240.7,0.6,0.6,1 hot dog in bun,"USDA FNDDS: Hot dog sandwich, NFS, on white bun (102 g)"
+huevos_rancheros,236,286,15.8,20.9,15.7,4.0,5.3,986,4.0,103.8,2.5,512.1,2.4,0.9,1 serving,USDA FNDDS: Huevos rancheros (236 g)
+hummus,60,146,4.4,8.9,10.3,3.2,0.2,263,1.3,24.6,1.4,173.4,0.0,0.0,1 serving,"USDA FNDDS: Hummus, plain (60 g)"
+ice_cream,120,265,4.3,31.6,13.6,1.0,27.4,108,8.2,148.8,0.4,243.6,0.7,0.5,1 scoop,"USDA FNDDS: Ice cream, NFS (120 g)"
+lasagna,250,348,18.6,40.4,12.4,4.0,8.3,975,5.8,205.0,1.8,517.5,11.0,2.1,1 piece,USDA FNDDS: Lasagna with meat (250 g)
+lobster_bisque,255,191,5.8,15.0,12.3,2.3,4.8,609,6.4,71.4,1.4,351.9,9.9,1.4,1 bowl,"USDA FNDDS: Soup, bisque (255 g)"
+lobster_roll_sandwich,165,345,16.6,23.6,20.1,1.5,3.1,812,3.3,169.4,1.8,278.2,3.4,0.9,1 roll,"USDA FNDDS: Lobster salad (120 g) + Roll, white, hot dog bun (45 g)"
+macaroni_and_cheese,230,513,20.0,53.1,24.1,2.8,5.6,823,11.8,391.0,2.4,236.9,0.0,0.6,1 cup,USDA FNDDS: Macaroni or noodles with cheese (230 g)
+macarons,48,221,1.4,29.4,10.8,2.4,21.7,116,9.6,2.4,0.4,59.0,0.0,0.0,1 serving (macaroon cookies),"USDA FNDDS: Cookie, macaroon (48 g)"
+miso_soup,245,59,5.4,5.6,2.1,1.5,1.9,1144,0.4,61.2,1.2,188.7,4.7,0.1,1 bowl,"USDA FNDDS: Soup, miso or tofu (245 g)"
+mussels,85,93,12.8,4.0,2.4,0.0,0.0,308,0.5,28.1,4.2,344.2,6.9,11.0,1 serving,USDA FNDDS: Mussels (85 g)
+nachos,125,331,9.5,29.8,19.8,2.1,0.5,610,4.3,92.5,1.4,140.0,0.0,0.5,1 plate,"USDA FNDDS: Nachos, NFS (125 g)"
+omelette,110,204,12.7,1.0,16.5,0.0,0.2,273,4.9,50.6,1.7,136.4,0.0,0.8,1 omelette,"USDA FNDDS: Egg omelet or scrambled egg, NS as to fat (110 g)"
+onion_rings,120,422,5.0,47.9,23.8,3.1,6.0,690,3.8,86.4,1.2,181.2,1.8,0.0,1 portion,USDA FNDDS: Fried onion rings (120 g)
+oysters,85,43,4.9,2.3,1.5,0.0,0.5,72,0.4,50.1,3.9,132.6,0.0,7.4,1 serving,"USDA FNDDS: Oysters, raw (85 g)"
+pad_thai,200,308,16.3,28.7,15.0,2.4,8.1,768,2.6,42.0,1.4,304.0,9.6,0.3,1 plate,"USDA FNDDS: Pad Thai, NFS (200 g)"
+paella,300,507,28.6,47.3,21.5,1.8,2.0,2211,5.7,57.0,3.8,378.0,9.0,3.9,1 plate,"USDA FNDDS: Paella, NFS (300 g)"
+pancakes,100,282,7.4,35.3,12.1,2.1,7.0,508,3.0,206.0,1.4,174.0,0.0,0.4,2 pancakes,"USDA FNDDS: Pancakes, plain (100 g)"
+panna_cotta,130,126,6.6,14.3,4.7,0.0,14.2,109,2.1,152.1,0.4,205.4,0.0,0.5,1 cup (custard),USDA FNDDS: Custard (130 g)
+peking_duck,85,131,4.5,5.5,10.0,0.3,3.7,244,2.6,7.7,0.7,91.0,10.4,0.1,1 serving,"USDA FNDDS: Duck, Peking (85 g)"
+pho,245,189,14.2,13.7,8.2,1.0,1.1,894,3.1,22.1,1.4,191.1,2.5,1.2,1 bowl,"USDA FNDDS: Soup, pho, with meat (245 g)"
+pizza,172,458,19.6,57.3,16.7,4.0,6.2,929,7.7,323.4,4.3,295.8,2.4,0.7,2 slices,"USDA FNDDS: Pizza, cheese, from restaurant or fast food, medium crust (172 g)"
+pork_chop,120,220,33.0,0.0,9.1,0.0,0.0,425,3.1,8.4,0.7,514.8,0.0,0.7,1 chop,"USDA FNDDS: Pork, chop, NS as to fat eaten (120 g)"
+poutine,190,370,6.6,41.6,19.9,3.6,0.5,854,4.1,51.7,1.4,551.7,4.0,0.1,fries with cheese and gravy,"USDA FNDDS: Potato, french fries, with cheese, fast food / restaurant (130 g) + Gravy, NFS (60 g)"
+prime_rib,200,412,58.2,0.0,19.4,0.0,0.0,744,7.6,30.0,5.8,664.0,0.0,5.2,1 restaurant slice,"USDA FNDDS: Beef, roast (200 g)"
+pulled_pork_sandwich,180,428,27.6,44.7,14.6,1.4,16.3,1010,4.8,113.4,3.5,419.4,1.1,1.0,1 sandwich,"USDA FNDDS: Barbecue sandwich, NFS (180 g)"
+ramen,245,311,17.5,34.2,11.2,2.2,1.0,816,2.6,44.1,2.4,235.2,6.9,0.8,1 bowl,"USDA FNDDS: Ramen bowl, NFS (245 g)"
+ravioli,250,245,9.9,38.0,5.8,3.0,9.0,615,2.6,172.5,2.0,512.5,6.2,0.3,1 plate with tomato sauce,"USDA FNDDS: Ravioli, cheese-filled, with tomato sauce (250 g)"
+red_velvet_cake,120,426,3.3,65.2,17.5,1.4,48.3,355,3.6,80.4,1.4,96.0,0.0,0.1,1 slice,"USDA FNDDS: Cake or cupcake, red velvet (120 g)"
+risotto,225,432,9.8,55.7,18.1,0.8,0.2,754,8.5,159.7,2.4,89.6,0.0,0.2,1 plate,"USDA FNDDS: Rice, white, cooked, fat added, NS as to fat type (200 g) + Cheese, Parmesan, hard (15 g) + Butter, NFS (10 g)"
+samosa,75,232,3.9,24.9,13.1,1.4,1.0,291,3.3,24.8,1.6,124.5,0.3,0.1,1 samosa,USDA FNDDS: Samosa (75 g)
+sashimi,100,109,24.4,0.0,0.5,0.0,0.0,45,0.2,4.0,0.8,441.0,0.0,2.1,6-8 slices (raw tuna),"USDA FNDDS: Fish, tuna, raw (100 g)"
+scallops,85,107,12.7,3.4,4.4,0.0,0.0,353,1.1,6.8,0.4,216.8,0.0,1.3,1 serving,"USDA FNDDS: Scallops, baked or broiled (85 g)"
+seaweed_salad,100,101,3.2,12.1,5.5,0.6,5.5,346,0.8,116.1,2.1,148.6,13.5,0.0,1 small bowl,"USDA FNDDS: Seaweed, raw (90 g) + Sesame oil (5 g) + Sugar, white, granulated or lump (5 g)"
+shrimp_and_grits,325,336,23.2,28.2,13.8,1.4,0.3,554,6.8,247.4,1.2,186.3,0.0,1.3,1 bowl,"USDA FNDDS: Grits, with cheese, fat added (240 g) + Shrimp, steamed or boiled (85 g)"
+spaghetti_bolognese,325,426,18.9,69.5,7.3,5.5,6.7,979,2.0,46.5,3.9,483.0,2.0,0.6,1 plate,"USDA FNDDS: Pasta, cooked (200 g) + Spaghetti sauce with meat (125 g)"
+spaghetti_carbonara,250,532,14.2,38.5,35.2,2.2,1.5,1405,11.5,75.0,2.1,150.0,0.2,0.6,1 plate,"USDA FNDDS: Pasta with cream sauce and meat, restaurant (250 g)"
+spring_rolls,100,270,5.6,30.0,14.1,2.3,5.6,463,2.1,47.0,1.9,210.0,6.3,0.0,1 serving,"USDA FNDDS: Egg roll, meatless (100 g)"
+steak,160,366,43.2,0.0,20.6,0.0,0.0,590,8.5,25.6,4.2,513.6,0.0,3.3,1 steak,"USDA FNDDS: Beef, steak, NFS (160 g)"
+strawberry_shortcake,175,374,5.8,70.2,8.3,1.6,45.3,548,4.3,96.2,2.8,203.0,21.7,0.3,1 serving,"USDA FNDDS: Cake, strawberry shortcake (175 g)"
+sushi,180,169,5.3,33.1,1.2,1.8,3.8,770,0.2,10.8,0.4,86.4,1.6,0.2,6 pieces,"USDA FNDDS: Sushi, NFS (180 g)"
+tacos,105,258,16.1,16.4,14.2,2.3,0.3,385,4.4,56.7,1.7,227.8,0.0,1.3,1 taco,"USDA FNDDS: Taco, NFS (105 g)"
+takoyaki,123,365,10.1,35.2,20.1,2.0,6.4,638,4.1,199.8,2.6,230.7,0.8,3.6,6 balls,"USDA FNDDS: Pancakes, plain (90 g) + Octopus (25 g) + Mayonnaise, regular (8 g)"
+tiramisu,140,494,7.9,41.2,33.4,0.8,26.2,242,18.6,91.0,1.6,210.0,1.5,0.3,1 serving,USDA FNDDS: Tiramisu (140 g)
+tuna_tartare,105,153,24.4,0.0,5.5,0.0,0.0,45,0.9,4.0,0.8,441.0,0.0,2.1,1 serving,"USDA FNDDS: Fish, tuna, raw (100 g) + Sesame oil (5 g)"
+waffles,75,280,6.5,31.1,14.1,1.9,6.2,448,3.1,181.5,1.3,153.8,0.0,0.3,1 waffle,"USDA FNDDS: Waffle, plain (75 g)"
+butter_naan,98,339,10.0,45.2,13.1,4.7,3.4,499,6.5,59.3,1.7,182.7,0.0,0.0,1 naan with butter,"USDA FNDDS: Bread, naan (90 g) + Butter, NFS (8 g)"
+chai,248,154,3.8,29.4,2.5,0.2,28.9,48,1.4,144.1,0.1,218.6,0.0,0.6,1 cup with sugar,"USDA FNDDS: Tea, hot, with milk (240 g) + Sugar, white, granulated or lump (8 g)"
+chapati,40,120,3.1,18.5,3.7,3.9,1.2,119,1.3,14.4,0.9,78.4,0.0,0.0,1 chapati (7 in),"USDA FNDDS: Bread, chappatti or roti (40 g)"
+chole_bhature,320,913,24.7,98.0,47.7,18.4,9.1,648,6.2,111.2,8.5,700.8,2.2,0.0,chole with 2 bhature,"USDA FNDDS: Chickpeas, from dried, fat added (200 g) + Bread, puri (120 g)"
+dal_makhani,265,474,21.0,46.6,23.9,18.0,4.6,797,13.6,56.9,7.6,861.6,3.4,0.0,1 bowl,"USDA FNDDS: Dal (240 g) + Butter, NFS (10 g) + Cream, heavy (15 g)"
+dhokla,120,190,8.4,27.6,5.4,3.0,6.0,600,0.8,60,2.4,250,3,0,4 pieces,Estimate from typical recipes (no USDA match)
+idli,76,97,4.8,19.0,0.3,4.4,1.4,192,0.0,7.6,0.7,177.1,0.2,0.0,2 idli,USDA FNDDS: Idli (76 g)
+jalebi,75,265,5.9,32.6,12.4,0.8,11.9,208,2.3,103.5,1.7,130.5,0.0,0.3,1 serving (funnel cake proxy),USDA FNDDS: Funnel cake with sugar (75 g)
+kaathi_rolls,162,348,27.4,25.7,14.4,5.4,2.7,451,4.0,28.4,1.7,398.9,1.6,0.2,1 roll,"USDA FNDDS: Bread, chappatti or roti (52 g) + Chicken breast, grilled without sauce, skin eaten (90 g) + Onions, raw (20 g)"
+kadai_paneer,250,425,26.1,17.7,28.3,2.7,6.6,1281,13.6,724.5,1.2,545.0,18.4,1.7,1 bowl (paneer counted as mozzarella),"USDA FNDDS: Cheese, Mozzarella, NFS (100 g) + Vegetable curry (150 g)"
+kulfi,70,155,2.5,18.5,7.9,0.6,16.0,63,4.8,86.8,0.2,142.1,0.4,0.3,1 kulfi (ice cream proxy),"USDA FNDDS: Ice cream, NFS (70 g)"
+masala_dosa,267,491,14.6,82.2,11.4,5.9,2.9,881,1.6,45.4,5.0,365.8,3.5,0.0,1 dosa,"USDA FNDDS: Dosa, with filling (267 g)"
+momos,180,203,12.4,19.9,8.3,2.2,4.1,662,2.6,41.4,1.1,426.6,12.4,0.4,6 momos,"USDA FNDDS: Wonton, dumpling or pot sticker, steamed (180 g)"
+paani_puri,110,252,6.0,28.6,12.9,4.4,2.4,243,1.9,29.2,1.7,281.4,4.9,0.0,6 puri,"USDA FNDDS: Bread, puri (30 g) + Chickpeas, from canned, fat added (40 g) + Potato, boiled, NFS (40 g)"
+pakode,100,125,4.9,16.2,4.8,3.2,3.0,380,0.6,19.0,1.1,214.0,3.5,0.0,1 plate (about 5 pieces),USDA FNDDS: Pakora (100 g)
+pav_bhaji,280,442,10.1,52.7,21.5,4.9,11.5,1174,7.7,144.9,3.8,659.7,25.5,0.2,bhaji with 2 pav,"USDA FNDDS: Vegetable curry (200 g) + Butter, NFS (10 g) + Roll, white, soft (70 g)"
+biryani,245,255,17.5,33.2,5.8,2.7,4.6,394,2.2,83.3,2.1,627.2,15.2,0.3,1 plate (chicken biryani),USDA FNDDS: Biryani with chicken (245 g)
+dal,240,348,20.6,46.0,10.3,18.0,4.1,742,6.0,45.6,7.6,844.8,3.4,0.0,1 bowl,USDA FNDDS: Dal (240 g)
+vada_pav,119,319,11.9,51.2,7.5,4.4,10.7,530,1.1,79.4,3.7,287.1,7.5,0.1,1 vada pav,"USDA FNDDS: Vada (60 g) + Roll, white, soft (43 g) + Chutney (16 g)"
+dabeli,139,251,6.0,45.3,4.9,1.9,11.7,509,2.1,85.0,1.8,327.3,9.9,0.1,1 dabeli,"USDA FNDDS: Roll, white, soft (43 g) + Potato, mashed, NFS (80 g) + Chutney (16 g)"
+kofta,222,271,17.5,19.0,14.4,6.0,5.7,978,2.9,49.5,2.6,558.6,18.4,1.1,4 kofta in curry,"USDA FNDDS: Meatball, meatless (72 g) + Vegetable curry (150 g)"
+paneer_tikka,150,280,18.5,8.2,19.2,2.1,3.4,420,9.8,480.0,1.4,180.0,12.0,0.8,1 plate (6 pcs),Recipe estimate (not lab-measured): Paneer Tikka (150 g)
+palak_paneer,220,290,15.2,11.4,20.4,4.8,3.8,640,9.2,420.0,3.6,520.0,24.0,0.6,1 bowl,Recipe estimate (not lab-measured): Palak Paneer (220 g)
+matar_paneer,230,285,14.6,17.5,17.4,5.2,5.1,580,7.8,360.0,2.2,410.0,16.0,0.5,1 bowl,Recipe estimate (not lab-measured): Matar Paneer (230 g)
+shahi_paneer,240,380,13.8,19.2,27.6,2.4,7.2,620,12.4,380.0,1.5,340.0,6.0,0.7,1 bowl,Recipe estimate (not lab-measured): Shahi Paneer (240 g)
+dal_tadka,240,210,11.8,26.4,6.3,7.2,2.1,540,2.4,54.0,2.8,420.0,5.2,0.0,1 bowl,Recipe estimate (not lab-measured): Dal Tadka / Yellow Dal (240 g)
+rajma_chawal,350,430,15.4,74.2,7.9,11.2,3.8,590,1.8,88.0,4.2,620.0,7.5,0.0,1 plate,Recipe estimate (not lab-measured): Rajma with Rice (350 g)
+chana_masala,240,265,12.2,36.8,7.7,9.6,4.2,610,1.2,76.0,3.8,480.0,11.0,0.0,1 bowl,Recipe estimate (not lab-measured): Chana Masala (240 g)
+aloo_paratha,120,290,6.2,43.5,10.1,4.2,2.1,380,3.8,35.0,2.1,260.0,6.5,0.0,1 paratha,Recipe estimate (not lab-measured): Aloo Paratha (120 g)
+paneer_paratha,130,340,14.1,39.2,14.1,3.8,2.4,410,6.8,280.0,1.8,210.0,3.2,0.4,1 paratha,Recipe estimate (not lab-measured): Paneer Paratha (130 g)
+poha,180,260,5.8,43.6,7.0,3.6,3.2,340,1.4,42.0,3.4,190.0,14.0,0.0,1 plate,Recipe estimate (not lab-measured): Kanda Poha (180 g)
+upma,180,230,6.1,36.8,6.5,3.2,2.0,390,1.8,38.0,1.7,160.0,4.5,0.0,1 bowl,Recipe estimate (not lab-measured): Rava Upma (180 g)
+sambar,240,145,6.2,21.4,3.7,5.4,4.8,680,0.8,62.0,2.1,380.0,18.0,0.0,1 bowl,Recipe estimate (not lab-measured): Sambar (240 g)
+rasam,200,65,1.8,11.2,1.5,1.8,2.6,520,0.3,34.0,1.4,260.0,12.0,0.0,1 bowl,Recipe estimate (not lab-measured): Tomato Pepper Rasam (200 g)
+medu_vada,90,220,7.8,21.4,11.5,3.8,0.8,310,1.8,48.0,2.2,240.0,1.2,0.0,2 vadas,Recipe estimate (not lab-measured): Medu Vada (90 g)
+uttapam,160,255,6.8,43.2,5.8,3.6,3.1,410,1.1,44.0,1.8,220.0,8.5,0.0,1 uttapam,Recipe estimate (not lab-measured): Onion Tomato Uttapam (160 g)
+khichdi,250,260,9.4,42.6,5.8,4.6,1.8,460,2.4,48.0,2.4,290.0,4.0,0.0,1 bowl,Recipe estimate (not lab-measured): Moong Dal Khichdi (250 g)
+aloo_gobi,200,165,3.8,21.4,7.2,4.8,4.2,440,1.1,52.0,1.9,410.0,36.0,0.0,1 bowl,Recipe estimate (not lab-measured): Aloo Gobi (200 g)
+bhindi_masala,180,150,3.6,16.8,7.6,5.8,3.8,410,1.1,110.0,1.6,360.0,21.0,0.0,1 bowl,Recipe estimate (not lab-measured): Bhindi Masala (180 g)
+baingan_bharta,200,155,3.4,17.2,8.1,6.2,5.4,420,1.2,46.0,1.4,380.0,14.0,0.0,1 bowl,Recipe estimate (not lab-measured): Baingan Bharta (200 g)
+butter_chicken,250,410,28.5,14.2,26.5,2.2,6.4,690,11.2,68.0,2.2,490.0,12.0,0.8,1 bowl,Recipe estimate (not lab-measured): Murgh Makhani / Butter Chicken (250 g)
+chicken_tikka,160,240,32.4,4.8,9.8,1.4,2.1,480,2.6,42.0,1.8,380.0,8.0,0.7,1 plate (6 pcs),Recipe estimate (not lab-measured): Tandoori Chicken Tikka (160 g)
+tandoori_chicken,220,310,41.2,4.2,13.8,1.2,1.8,590,3.8,56.0,2.4,520.0,10.0,1.1,1 piece (leg & thigh),Recipe estimate (not lab-measured): Tandoori Chicken (220 g)
+fish_curry,240,270,24.6,8.4,15.1,2.1,3.2,580,6.8,72.0,1.9,460.0,8.0,2.6,1 bowl,Recipe estimate (not lab-measured): Indian Coastal Fish Curry (240 g)
+mutton_curry,240,360,27.8,9.2,23.4,2.2,3.5,620,8.9,44.0,3.2,430.0,6.0,2.1,1 bowl,Recipe estimate (not lab-measured): Mutton Curry / Rogan Josh (240 g)
+egg_curry,220,235,14.8,9.6,15.1,2.1,3.4,520,4.2,64.0,2.2,310.0,8.0,1.6,2 eggs with gravy,Recipe estimate (not lab-measured): Indian Egg Curry (220 g)
+gulab_jamun,80,270,4.2,42.8,9.2,0.6,36.4,110,5.1,98.0,0.6,110.0,0.4,0.2,2 pieces,Recipe estimate (not lab-measured): Gulab Jamun (80 g)
+rasgulla,100,185,5.6,38.4,1.1,0.2,35.2,60,0.6,140.0,0.4,85.0,0.2,0.1,2 pieces,Recipe estimate (not lab-measured): Rasgulla (100 g)
+kheer,180,235,6.4,34.2,8.1,0.8,25.8,95,4.8,195.0,0.6,260.0,1.2,0.5,1 bowl,Recipe estimate (not lab-measured): Rice Kheer (180 g)
+gajar_halwa,150,310,5.2,44.6,12.2,3.8,34.2,85,7.2,160.0,1.2,280.0,4.0,0.3,1 bowl,Recipe estimate (not lab-measured): Gajar Ka Halwa (150 g)
+lassi,250,220,6.8,33.5,6.2,0.4,31.2,115,3.8,240.0,0.3,340.0,2.0,0.7,1 glass,Recipe estimate (not lab-measured): Sweet Punjabi Lassi (250 ml)
+buttermilk,250,55,3.8,5.2,1.8,0.2,4.8,280,1.1,160.0,0.2,220.0,1.5,0.4,1 glass,Recipe estimate (not lab-measured): Masala Chaas / Buttermilk (250 ml)
+bhel_puri,140,240,5.6,42.4,5.2,4.2,6.4,480,1.1,38.0,2.6,240.0,12.0,0.0,1 plate,Recipe estimate (not lab-measured): Bhel Puri Chaat (140 g)
+sev_puri,130,260,5.2,39.4,9.1,3.8,5.8,460,2.2,42.0,2.2,210.0,8.0,0.0,6 puris,Recipe estimate (not lab-measured): Sev Puri Chaat (130 g)
+ragda_pattice,220,310,9.8,51.4,6.9,7.8,5.2,540,1.4,64.0,3.4,460.0,14.0,0.0,2 patties with ragda,Recipe estimate (not lab-measured): Ragda Pattice (220 g)
+misal_pav,280,480,16.2,68.4,15.2,10.4,6.8,760,3.4,92.0,4.8,540.0,18.0,0.0,misal with 2 pav,Recipe estimate (not lab-measured): Kolhapuri Misal Pav (280 g)
+jeera_rice,200,240,4.4,46.2,4.0,1.6,0.2,280,1.8,22.0,1.2,110.0,0.0,0.0,1 bowl,Recipe estimate (not lab-measured): Jeera Cumin Rice (200 g)
+pulao,220,260,5.6,48.2,4.8,3.8,2.4,390,1.4,38.0,1.8,190.0,8.0,0.0,1 bowl,Recipe estimate (not lab-measured): Vegetable Pulao (220 g)
+curd_rice,220,230,6.2,38.5,5.2,1.4,4.2,320,2.8,180.0,0.6,210.0,2.0,0.5,1 bowl,Recipe estimate (not lab-measured): South Indian Curd Rice (220 g)
+raita,150,95,4.8,8.2,4.6,0.8,6.1,240,2.7,165.0,0.3,230.0,3.0,0.5,1 bowl,Recipe estimate (not lab-measured): Cucumber Boondi Raita (150 g)
+thepla,90,235,6.4,35.8,7.2,4.6,1.8,310,1.8,78.0,2.4,190.0,4.0,0.0,2 theplas,Recipe estimate (not lab-measured): Methi Thepla (90 g)
+appam,100,125,2.4,25.4,1.2,1.2,2.8,160,0.8,18.0,0.6,85.0,0.0,0.0,2 appams,Recipe estimate (not lab-measured): Kerala Appam (100 g)
+poori_bhaji,240,460,8.4,61.2,19.8,5.4,3.2,580,4.2,48.0,2.8,390.0,14.0,0.0,3 pooris with bhaji,Recipe estimate (not lab-measured): Poori Aloo Bhaji (240 g)

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Selected filter chip is brand-green filled; unselected is the plain surface -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/brand_green" android:state_checked="true" />
+    <item android:color="@color/surface" />
+</selector>

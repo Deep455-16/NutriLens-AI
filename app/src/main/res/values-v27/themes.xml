@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 8.1+: dark navigation-bar icons on the light theme too -->
+    <style name="Theme.NutriLens" parent="Base.Theme.NutriLens">
+        <item name="android:windowLightNavigationBar">@bool/light_system_bars</item>
+    </style>
+</resources>

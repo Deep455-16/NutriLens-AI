@@ -1,0 +1,123 @@
+label,dataset,licence,model_confidence
+apple_pie,food101,"Food-101, ETH Zurich (research use)",0.998
+baby_back_ribs,food101,"Food-101, ETH Zurich (research use)",0.992
+baklava,food101,"Food-101, ETH Zurich (research use)",0.999
+beef_carpaccio,food101,"Food-101, ETH Zurich (research use)",0.998
+beef_tartare,food101,"Food-101, ETH Zurich (research use)",0.998
+beet_salad,food101,"Food-101, ETH Zurich (research use)",0.983
+beignets,food101,"Food-101, ETH Zurich (research use)",0.996
+bibimbap,food101,"Food-101, ETH Zurich (research use)",0.999
+biryani,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.979
+bread_pudding,food101,"Food-101, ETH Zurich (research use)",0.998
+breakfast_burrito,food101,"Food-101, ETH Zurich (research use)",0.998
+bruschetta,food101,"Food-101, ETH Zurich (research use)",0.986
+butter_naan,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.986
+caesar_salad,food101,"Food-101, ETH Zurich (research use)",0.996
+cannoli,food101,"Food-101, ETH Zurich (research use)",0.999
+caprese_salad,food101,"Food-101, ETH Zurich (research use)",1.0
+carrot_cake,food101,"Food-101, ETH Zurich (research use)",0.998
+ceviche,food101,"Food-101, ETH Zurich (research use)",0.998
+chai,indian,no licence stated (rajistics/indian_food_images),0.997
+chapati,indian,no licence stated (rajistics/indian_food_images),0.994
+cheese_plate,food101,"Food-101, ETH Zurich (research use)",0.998
+cheesecake,food101,"Food-101, ETH Zurich (research use)",0.996
+chicken_curry,food101,"Food-101, ETH Zurich (research use)",0.997
+chicken_quesadilla,food101,"Food-101, ETH Zurich (research use)",0.997
+chicken_wings,food101,"Food-101, ETH Zurich (research use)",0.994
+chocolate_cake,food101,"Food-101, ETH Zurich (research use)",0.996
+chocolate_mousse,food101,"Food-101, ETH Zurich (research use)",0.998
+chole_bhature,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.991
+churros,food101,"Food-101, ETH Zurich (research use)",0.998
+clam_chowder,food101,"Food-101, ETH Zurich (research use)",0.998
+club_sandwich,food101,"Food-101, ETH Zurich (research use)",0.997
+crab_cakes,food101,"Food-101, ETH Zurich (research use)",0.999
+creme_brulee,food101,"Food-101, ETH Zurich (research use)",0.998
+croque_madame,food101,"Food-101, ETH Zurich (research use)",0.997
+cup_cakes,food101,"Food-101, ETH Zurich (research use)",0.987
+dabeli,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.998
+dal,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.979
+dal_makhani,indian,no licence stated (rajistics/indian_food_images),0.995
+deviled_eggs,food101,"Food-101, ETH Zurich (research use)",0.995
+dhokla,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.99
+donuts,food101,"Food-101, ETH Zurich (research use)",0.999
+dumplings,food101,"Food-101, ETH Zurich (research use)",0.996
+edamame,food101,"Food-101, ETH Zurich (research use)",0.983
+eggs_benedict,food101,"Food-101, ETH Zurich (research use)",0.997
+escargots,food101,"Food-101, ETH Zurich (research use)",0.998
+falafel,food101,"Food-101, ETH Zurich (research use)",0.993
+filet_mignon,food101,"Food-101, ETH Zurich (research use)",0.982
+fish_and_chips,food101,"Food-101, ETH Zurich (research use)",0.999
+foie_gras,food101,"Food-101, ETH Zurich (research use)",0.999
+french_fries,food101,"Food-101, ETH Zurich (research use)",0.992
+french_onion_soup,food101,"Food-101, ETH Zurich (research use)",0.998
+french_toast,food101,"Food-101, ETH Zurich (research use)",0.996
+fried_calamari,food101,"Food-101, ETH Zurich (research use)",0.998
+fried_rice,indian,no licence stated (rajistics/indian_food_images),0.986
+frozen_yogurt,food101,"Food-101, ETH Zurich (research use)",0.998
+garlic_bread,food101,"Food-101, ETH Zurich (research use)",0.999
+gnocchi,food101,"Food-101, ETH Zurich (research use)",0.995
+greek_salad,food101,"Food-101, ETH Zurich (research use)",0.998
+grilled_cheese_sandwich,food101,"Food-101, ETH Zurich (research use)",0.997
+grilled_salmon,food101,"Food-101, ETH Zurich (research use)",0.999
+guacamole,food101,"Food-101, ETH Zurich (research use)",0.989
+gyoza,food101,"Food-101, ETH Zurich (research use)",0.997
+hamburger,indian,no licence stated (rajistics/indian_food_images),0.98
+hot_and_sour_soup,food101,"Food-101, ETH Zurich (research use)",0.993
+hot_dog,food101,"Food-101, ETH Zurich (research use)",0.999
+huevos_rancheros,food101,"Food-101, ETH Zurich (research use)",0.974
+hummus,food101,"Food-101, ETH Zurich (research use)",0.998
+ice_cream,food101,"Food-101, ETH Zurich (research use)",0.997
+idli,indian,no licence stated (rajistics/indian_food_images),0.996
+jalebi,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.992
+kaathi_rolls,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.996
+kadai_paneer,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.991
+kofta,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.998
+kulfi,indian,no licence stated (rajistics/indian_food_images),0.992
+lasagna,food101,"Food-101, ETH Zurich (research use)",0.994
+lobster_bisque,food101,"Food-101, ETH Zurich (research use)",0.998
+lobster_roll_sandwich,food101,"Food-101, ETH Zurich (research use)",0.993
+macaroni_and_cheese,food101,"Food-101, ETH Zurich (research use)",0.994
+macarons,food101,"Food-101, ETH Zurich (research use)",0.997
+masala_dosa,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.994
+miso_soup,food101,"Food-101, ETH Zurich (research use)",0.991
+momos,indian,no licence stated (rajistics/indian_food_images),0.993
+mussels,food101,"Food-101, ETH Zurich (research use)",0.993
+nachos,food101,"Food-101, ETH Zurich (research use)",0.982
+omelette,food101,"Food-101, ETH Zurich (research use)",0.997
+onion_rings,food101,"Food-101, ETH Zurich (research use)",0.996
+oysters,food101,"Food-101, ETH Zurich (research use)",0.991
+paani_puri,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.988
+pad_thai,food101,"Food-101, ETH Zurich (research use)",0.985
+paella,food101,"Food-101, ETH Zurich (research use)",0.997
+pakode,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.992
+pancakes,food101,"Food-101, ETH Zurich (research use)",0.997
+panna_cotta,food101,"Food-101, ETH Zurich (research use)",0.998
+pav_bhaji,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.991
+peking_duck,food101,"Food-101, ETH Zurich (research use)",0.998
+pho,food101,"Food-101, ETH Zurich (research use)",0.997
+pizza,indian,no licence stated (rajistics/indian_food_images),0.993
+pork_chop,food101,"Food-101, ETH Zurich (research use)",0.996
+poutine,food101,"Food-101, ETH Zurich (research use)",1.0
+prime_rib,food101,"Food-101, ETH Zurich (research use)",0.994
+pulled_pork_sandwich,food101,"Food-101, ETH Zurich (research use)",0.999
+ramen,food101,"Food-101, ETH Zurich (research use)",0.995
+ravioli,food101,"Food-101, ETH Zurich (research use)",0.998
+red_velvet_cake,food101,"Food-101, ETH Zurich (research use)",0.992
+risotto,food101,"Food-101, ETH Zurich (research use)",0.979
+samosa,indian,no licence stated (rajistics/indian_food_images),0.99
+sashimi,food101,"Food-101, ETH Zurich (research use)",0.984
+scallops,food101,"Food-101, ETH Zurich (research use)",0.991
+seaweed_salad,food101,"Food-101, ETH Zurich (research use)",0.994
+shrimp_and_grits,food101,"Food-101, ETH Zurich (research use)",0.997
+spaghetti_bolognese,food101,"Food-101, ETH Zurich (research use)",0.997
+spaghetti_carbonara,food101,"Food-101, ETH Zurich (research use)",0.994
+spring_rolls,food101,"Food-101, ETH Zurich (research use)",0.984
+steak,food101,"Food-101, ETH Zurich (research use)",0.981
+strawberry_shortcake,food101,"Food-101, ETH Zurich (research use)",0.994
+sushi,food101,"Food-101, ETH Zurich (research use)",0.998
+tacos,food101,"Food-101, ETH Zurich (research use)",1.0
+takoyaki,food101,"Food-101, ETH Zurich (research use)",0.999
+tiramisu,food101,"Food-101, ETH Zurich (research use)",0.988
+tuna_tartare,food101,"Food-101, ETH Zurich (research use)",0.993
+vada_pav,indian2,CC0 (bharat-raghunathan/indian-foods-dataset),0.971
+waffles,food101,"Food-101, ETH Zurich (research use)",0.999

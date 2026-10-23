@@ -1,0 +1,4 @@
+validation-00000-of-00003.parquet: 8417 images, top-1 0.6154, top-3 0.8164
+validation-00001-of-00003.parquet: 16834 images, top-1 0.6363, top-3 0.8216
+validation-00002-of-00003.parquet: 25250 images, top-1 0.6472, top-3 0.8265
+TFLite validation accuracy over 25250 images: top-1 0.6472, top-3 0.8265

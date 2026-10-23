@@ -1,0 +1,25 @@
+{
+ "code": "8902080104581",
+ "product": {
+  "brands": "Pepsi Cola",
+  "nutriments": {
+   "carbohydrates_100g": 10.9,
+   "energy-kcal_100g": 43,
+   "energy_100g": 185.3,
+   "fat_100g": 0,
+   "proteins_100g": 0,
+   "salt_100g": 0.0075,
+   "saturated-fat_100g": 0,
+   "sodium_100g": 0.003,
+   "sugars_100g": 10.9
+  },
+  "nutrition_data": "on",
+  "nutrition_data_prepared_per": "100g",
+  "product_name": "Pepsi",
+  "serving_quantity": 200,
+  "serving_quantity_unit": "ml",
+  "serving_size": "200ml"
+ },
+ "status": 1,
+ "status_verbose": "product found"
+}

@@ -1,0 +1,131 @@
+# Which USDA FNDDS food(s) each model label uses, and how much counts as one serving.
+# components: fdc_id:amount joined by " + "; amount = qns (USDA "Quantity not specified", i.e. the
+#   typical amount eaten), a weight like 150g, or p=<start of a FNDDS portion description>.
+#   Several components make a composite dish (e.g. fish + fries).
+#   "estimate" rows have no FNDDS match; their numbers are in ESTIMATES in build_nutrition.py.
+# FNDDS "Cheese, paneer" lists 22 g carbs / 23 g sugar per 100 g (sweetened or an error), so
+#   kadai_paneer uses whole-milk mozzarella, which is close to plain paneer.
+# Built into app/src/main/assets/nutrition.csv by build_nutrition.py.
+label,components,serving
+apple_pie,2707995:p=1 mini/small slice,1 small slice
+baby_back_ribs,2705894:qns,1 portion of ribs
+baklava,2708044:qns,1 piece
+beef_carpaccio,2706394:80g,1 plate (raw beef)
+beef_tartare,2706394:qns,1 portion
+beet_salad,2709874:120g + 2705716:20g + 2709791:20g + 2710186:10g,1 bowl
+beignets,2708062:90g,3 beignets
+bibimbap,2708950:400g,1 bowl
+bread_pudding,2705680:qns,1 serving
+breakfast_burrito,2707343:qns,1 burrito
+bruschetta,2707652:129g,3 pieces
+caesar_salad,2709591:qns + 2710199:30g,1 bowl with dressing
+cannoli,2708030:qns,1 pastry
+caprese_salad,2705722:60g + 2709719:120g + 2710186:10g,1 plate
+carrot_cake,2707859:120g,1 slice
+ceviche,2706463:qns,1 cup
+cheesecake,2707861:125g,1 slice
+cheese_plate,2705704:60g + 2708132:20g,cheese and crackers
+chicken_curry,2706437:qns,1 cup
+chicken_quesadilla,2708593:p=1 full circle,1 quesadilla
+chicken_wings,2706068:qns,1 portion of wings
+chocolate_cake,2707866:120g,1 slice
+chocolate_mousse,2705698:qns,1 cup
+churros,2708070:qns,1 serving
+clam_chowder,2707139:qns,1 bowl
+club_sandwich,2706997:qns,1 sandwich
+crab_cakes,2706549:qns,1 crab cake
+creme_brulee,2705684:qns,1 ramekin
+croque_madame,2706964:qns + 2707159:46g + 2705704:20g,1 sandwich with egg
+cup_cakes,2707853:p=1 cupcake,1 cupcake
+deviled_eggs,2707181:120g,4 halves
+donuts,2708062:qns,1 doughnut
+dumplings,2708708:100g,4 dumplings
+edamame,2707436:qns,1 cup
+eggs_benedict,2707180:qns,1 serving
+escargots,2706368:qns,1 serving
+falafel,2707408:112g,4 falafel
+filet_mignon,2705841:qns,1 steak
+fish_and_chips,2706258:150g + 2709462:120g,fried fish with fries
+foie_gras,2706155:50g,1 portion (liver pate)
+french_fries,2709462:qns,1 portion
+french_onion_soup,2710108:qns,1 bowl
+french_toast,2708335:130g,2 slices
+fried_calamari,2706334:qns,1 serving
+fried_rice,2708952:qns,1 cup
+frozen_yogurt,2705451:qns,1 cup
+garlic_bread,2707627:qns,1 serving
+gnocchi,2708722:qns,1 cup
+greek_salad,2709830:qns,1 bowl
+grilled_cheese_sandwich,2705801:qns,1 sandwich
+grilled_salmon,2706287:qns,1 fillet
+guacamole,2709307:qns,1 serving
+gyoza,2708705:qns,1 serving
+hamburger,2706920:qns,1 hamburger
+hot_and_sour_soup,2707136:qns,1 bowl
+hot_dog,2707056:qns,1 hot dog in bun
+huevos_rancheros,2707191:qns,1 serving
+hummus,2707402:qns,1 serving
+ice_cream,2705629:p=1 scoop,1 scoop
+lasagna,2708750:qns,1 piece
+lobster_bisque,2707140:qns,1 bowl
+lobster_roll_sandwich,2706825:120g + 2707656:qns,1 roll
+macaroni_and_cheese,2708811:qns,1 cup
+macarons,2707936:qns,1 serving (macaroon cookies)
+miso_soup,2707455:qns,1 bowl
+mussels,2706350:qns,1 serving
+nachos,2708576:qns,1 plate
+omelette,2707198:qns,1 omelette
+onion_rings,2710055:qns,1 portion
+oysters,2706351:qns,1 serving
+pad_thai,2708804:qns,1 plate
+paella,2706723:qns,1 plate
+pancakes,2708304:qns,2 pancakes
+panna_cotta,2705682:qns,1 cup (custard)
+peking_duck,2706141:qns,1 serving
+pho,2707124:qns,1 bowl
+pizza,2708616:172g,2 slices
+pork_chop,2705866:qns,1 chop
+poutine,2709465:qns + 2707149:60g,fries with cheese and gravy
+prime_rib,2705847:200g,1 restaurant slice
+pulled_pork_sandwich,2706882:qns,1 sandwich
+ramen,2709153:qns,1 bowl
+ravioli,2708768:qns,1 plate with tomato sauce
+red_velvet_cake,2707884:120g,1 slice
+risotto,2708407:200g + 2705730:15g + 2710154:10g,1 plate
+samosa,2708730:qns,1 samosa
+sashimi,2706308:100g,6-8 slices (raw tuna)
+scallops,2706356:qns,1 serving
+seaweed_salad,2709805:90g + 2710190:5g + 2710258:5g,1 small bowl
+shrimp_and_grits,2708369:qns + 2706363:85g,1 bowl
+spaghetti_bolognese,2708357:200g + 2706470:125g,1 plate
+spaghetti_carbonara,2708861:qns,1 plate
+spring_rolls,2708700:qns,1 serving
+steak,2705824:qns,1 steak
+strawberry_shortcake,2707896:qns,1 serving
+sushi,2708959:qns,6 pieces
+tacos,2708514:qns,1 taco
+takoyaki,2708304:90g + 2706331:25g + 2710204:8g,6 balls
+tiramisu,2705702:140g,1 serving
+tuna_tartare,2706308:100g + 2710190:5g,1 serving
+waffles,2708325:qns,1 waffle
+butter_naan,2707613:90g + 2710154:8g,1 naan with butter
+chai,2710506:240g + 2710258:8g,1 cup with sugar
+chapati,2707713:qns,1 chapati (7 in)
+chole_bhature,2707415:200g + 2707714:120g,chole with 2 bhature
+dal_makhani,2707427:qns + 2710154:10g + 2705597:15g,1 bowl
+dhokla,estimate,4 pieces
+idli,2708346:qns,2 idli
+jalebi,2708349:75g,1 serving (funnel cake proxy)
+kaathi_rolls,2707713:52g + 2705967:90g + 2709795:20g,1 roll
+kadai_paneer,2705722:100g + 2710067:150g,1 bowl (paneer counted as mozzarella)
+kulfi,2705629:70g,1 kulfi (ice cream proxy)
+masala_dosa,2709129:qns,1 dosa
+momos,2708708:180g,6 momos
+paani_puri,2707714:30g + 2707417:40g + 2709385:40g,6 puri
+pakode,2710066:100g,1 plate (about 5 pieces)
+pav_bhaji,2710067:200g + 2710154:10g + 2707654:70g,bhaji with 2 pav
+biryani,2706538:qns,1 plate (chicken biryani)
+dal,2707427:qns,1 bowl
+vada_pav,2709130:60g + 2707654:43g + 2709309:16g,1 vada pav
+dabeli,2707654:43g + 2709492:80g + 2709309:16g,1 dabeli
+kofta,2707472:72g + 2710067:150g,4 kofta in curry

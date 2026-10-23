@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Type scale. Plus Jakarta Sans (bold weights) for screen titles, section titles, key numbers
+      and buttons; the system sans for body text, values and labels.
+      Nothing smaller than 12sp.
+    -->
+    <!-- Implicit parent of the NL.* styles below; AAPT fails without it. -->
+    <style name="NL" />
+
+    <!-- Big screen title, e.g. "Good morning, Rohit" -->
+    <style name="NL.Display">
+        <item name="android:textSize">27sp</item>
+        <item name="android:fontFamily">@font/jakarta_extrabold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineSpacingMultiplier">1.05</item>
+    </style>
+    <!-- Title of a sub-page or a hero card -->
+    <style name="NL.Heading">
+        <item name="android:textSize">21sp</item>
+        <item name="android:fontFamily">@font/jakarta_bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:lineSpacingMultiplier">1.05</item>
+    </style>
+    <!-- A large figure: calories, scores -->
+    <style name="NL.Number">
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">@font/jakarta_extrabold</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <!-- Section label inside a page or card -->
+    <style name="NL.Section">
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@font/jakarta_bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="NL.Body">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <!-- A row title or a value -->
+    <style name="NL.Value">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="NL.Caption">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+    <!-- Small label above a value, e.g. "Protein" -->
+    <style name="NL.Label">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <!-- Trailing action text such as "See all" -->
+    <style name="NL.Link">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/brand_green</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+    <style name="NL.IconButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">center</item>
+        <item name="tint">?attr/colorOnSurface</item>
+    </style>
+
+    <!-- A row that opens and closes the section below it (title, summary, chevron) -->
+    <style name="NL.ExpandRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+    <style name="NL.ExpandChevron">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:rotation">90</item>
+        <item name="android:src">@drawable/ic_chevron_right</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="tint">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="TextAppearance.NutriLens.Title" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">@font/jakarta_bold</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+</resources>

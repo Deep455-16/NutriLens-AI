@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+      NutriLens design system.
+      Paper background, white cards with hairline borders, ink text, one basil accent.
+      Serif (DM Serif Display) only for screen titles and key numbers; everything else is the
+      system sans in regular / medium weight. Corners: 20dp cards, 14dp controls, 12dp images.
+    -->
+    <style name="Base.Theme.NutriLens" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryInverse">@color/primary_inverse</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/green_light</item>
+        <item name="colorOnPrimaryContainer">@color/green_dark</item>
+        <item name="colorSecondary">@color/green_primary</item>
+        <item name="colorOnSecondary">@color/on_primary</item>
+        <item name="colorSecondaryContainer">@color/green_light</item>
+        <item name="colorOnSecondaryContainer">@color/green_dark</item>
+        <item name="colorTertiary">@color/macro_carbs</item>
+        <item name="colorError">@color/danger</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorSurfaceContainerLowest">@color/surface</item>
+        <item name="colorSurfaceContainerLow">@color/surface</item>
+        <item name="colorSurfaceContainer">@color/surface</item>
+        <item name="colorSurfaceContainerHigh">@color/surface</item>
+        <item name="colorSurfaceContainerHighest">@color/surface_variant</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">@bool/light_system_bars</item>
+
+        <!-- Flat design: no tinted "tonal elevation" on sheets, menus and dialogs -->
+        <item name="elevationOverlayEnabled">false</item>
+
+        <!-- Component defaults, so every screen gets the same controls -->
+        <item name="materialButtonStyle">@style/Widget.NutriLens.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.NutriLens.Button.Outlined</item>
+        <item name="materialCardViewStyle">@style/Widget.NutriLens.Card</item>
+        <item name="chipStyle">@style/Widget.NutriLens.Chip</item>
+        <item name="textInputStyle">@style/Widget.NutriLens.TextInput</item>
+        <item name="bottomNavigationStyle">@style/Widget.NutriLens.BottomNav</item>
+        <item name="snackbarStyle">@style/Widget.NutriLens.Snackbar</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.NutriLens.Dialog</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.NutriLens.BottomSheet</item>
+        <item name="linearProgressIndicatorStyle">@style/Widget.NutriLens.LinearProgress</item>
+        <item name="circularProgressIndicatorStyle">@style/Widget.NutriLens.CircularProgress</item>
+        <item name="textAppearanceButton">@style/TextAppearance.NutriLens.Button</item>
+    </style>
+    <style name="Theme.NutriLens" parent="Base.Theme.NutriLens" />
+
+    <!-- System splash: plain paper with the mark, shown only while the app starts -->
+    <style name="Theme.NutriLens.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.NutriLens</item>
+    </style>
+
+    <!-- Cards: white with a soft shadow, generous corners -->
+    <style name="Widget.NutriLens.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">22dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+        <item name="android:stateListAnimator">@animator/nl_press</item>
+    </style>
+
+    <!-- Kept for layouts that still reference it: now the same quiet card -->
+
+    <!-- Buttons -->
+    <style name="Widget.NutriLens.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">52dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.NutriLens.Button</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconSize">20dp</item>
+    </style>
+    <style name="Widget.NutriLens.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">52dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeColor">@color/outline</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="iconTint">?attr/colorOnSurface</item>
+        <item name="android:textAppearance">@style/TextAppearance.NutriLens.Button</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconSize">20dp</item>
+    </style>
+    <style name="Widget.NutriLens.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.NutriLens.Button</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconSize">20dp</item>
+    </style>
+    <style name="Widget.NutriLens.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.NutriLens.Button</item>
+        <item name="android:textColor">@color/brand_green</item>
+    </style>
+    <style name="TextAppearance.NutriLens.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/jakarta_bold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Chips: quiet outline, ink fill when selected -->
+    <style name="Widget.NutriLens.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_bg</item>
+        <item name="android:textColor">@color/chip_text</item>
+        <item name="chipStrokeColor">@color/chip_stroke</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipCornerRadius">12dp</item>
+        <item name="chipMinHeight">36dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.NutriLens.Chip</item>
+        <item name="chipStartPadding">6dp</item>
+        <item name="chipEndPadding">6dp</item>
+    </style>
+    <style name="TextAppearance.NutriLens.Chip" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/jakarta_semibold</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Text fields -->
+    <style name="Widget.NutriLens.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="boxStrokeColor">@color/input_stroke</item>
+        <item name="boxBackgroundColor">?attr/colorSurface</item>
+        <item name="hintTextColor">@color/brand_green</item>
+    </style>
+
+    <style name="Widget.NutriLens.TextInput.Dropdown" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="boxStrokeColor">@color/input_stroke</item>
+        <item name="boxBackgroundColor">?attr/colorSurface</item>
+        <item name="hintTextColor">@color/brand_green</item>
+    </style>
+
+    <!-- Bottom navigation: plain surface, small basil indicator -->
+    <style name="Widget.NutriLens.BottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">?attr/colorSurface</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.NutriLens.BottomNav.Indicator</item>
+        <item name="itemIconTint">@color/nav_item</item>
+        <item name="itemTextColor">@color/nav_item</item>
+        <item name="itemTextAppearanceActive">@style/TextAppearance.NutriLens.NavLabel</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.NutriLens.NavLabel</item>
+        <item name="elevation">0dp</item>
+    </style>
+    <style name="Widget.NutriLens.BottomNav.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/green_light</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.NutriLens.Pill</item>
+    </style>
+    <style name="TextAppearance.NutriLens.NavLabel" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/jakarta_semibold</item>
+    </style>
+
+    <!-- Progress -->
+    <style name="Widget.NutriLens.LinearProgress" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="trackThickness">6dp</item>
+        <item name="trackCornerRadius">3dp</item>
+        <item name="trackColor">@color/surface_variant</item>
+        <item name="indicatorColor">@color/brand_green</item>
+        <item name="trackStopIndicatorSize">0dp</item>
+    </style>
+    <style name="Widget.NutriLens.CircularProgress" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="trackColor">@color/surface_variant</item>
+        <item name="indicatorColor">@color/brand_green</item>
+        <item name="trackCornerRadius">6dp</item>
+    </style>
+
+    <!-- Snackbar, dialogs, sheets -->
+    <style name="Widget.NutriLens.Snackbar" parent="Widget.Material3.Snackbar">
+        <item name="shapeAppearance">@style/ShapeAppearance.NutriLens.Control</item>
+    </style>
+    <style name="ThemeOverlay.NutriLens.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.NutriLens.Sheet</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/NutriLens.DialogTitle</item>
+        <item name="android:background">@color/surface</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.NutriLens.Button.Text</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.NutriLens.Button.Text</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.NutriLens.Button.Text</item>
+    </style>
+    <style name="NutriLens.DialogTitle" parent="MaterialAlertDialog.Material3.Title.Text">
+        <item name="android:textAppearance">@style/TextAppearance.NutriLens.Title</item>
+    </style>
+    <style name="ThemeOverlay.NutriLens.BottomSheet" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.NutriLens.BottomSheet</item>
+    </style>
+    <style name="Widget.NutriLens.BottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">?attr/colorSurface</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.NutriLens.Sheet</item>
+    </style>
+
+    <!-- Shapes -->
+    <style name="ShapeAppearance.NutriLens.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.NutriLens.Thumb" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeAppearance.NutriLens.Photo" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="ShapeAppearance.NutriLens.Control" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">14dp</item>
+    </style>
+    <style name="ShapeAppearance.NutriLens.Sheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+    <style name="ShapeAppearance.NutriLens.Pill" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="ShapeAppearance.NutriLens.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

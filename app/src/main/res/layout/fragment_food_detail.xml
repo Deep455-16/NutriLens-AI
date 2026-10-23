@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            style="@style/NL.IconButton"
+            android:contentDescription="@string/cd_back"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/NL.Section"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <ImageButton
+            android:id="@+id/btnFavorite"
+            style="@style/NL.IconButton"
+            android:contentDescription="@string/cd_add_to_favourites"
+            android:src="@drawable/ic_star_outline" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="24dp">
+
+            <!-- The dish's photo, when it has one -->
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgHero"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="14dp"
+                android:background="?attr/colorSurfaceVariant"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.NutriLens.Photo" />
+
+            <!-- At a glance for the chosen portion (same layout as the Result screen) -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.NutriLens.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@null">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvCal"
+                            style="@style/NL.Number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            style="@style/NL.Caption"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="6dp"
+                            android:layout_weight="1"
+                            android:text="@string/kcal"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvTag"
+                            style="@style/NL.Label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/brand_green" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvServing"
+                        style="@style/NL.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="14dp"
+                        android:background="@color/outline" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <include
+                            android:id="@+id/macroProtein"
+                            layout="@layout/layout_macro_cell"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <include
+                            android:id="@+id/macroCarbs"
+                            layout="@layout/layout_macro_cell"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <include
+                            android:id="@+id/macroFat"
+                            layout="@layout/layout_macro_cell"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <include
+                            android:id="@+id/macroFiber"
+                            layout="@layout/layout_macro_cell"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvTags"
+                        style="@style/NL.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/conf_low_text"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tvPackagedNote"
+                        style="@style/NL.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/packaged_note"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- How much (the picker has its own title) -->
+            <include
+                android:id="@+id/portionPicker"
+                layout="@layout/layout_portion_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="4dp" />
+
+            <!-- Less often needed: tap a row to open it -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.NutriLens.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:stateListAnimator="@null">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/rowCooking"
+                        style="@style/NL.ExpandRow">
+
+                        <TextView
+                            style="@style/NL.Value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/cooking_style_title" />
+
+                        <TextView
+                            android:id="@+id/tvCookingSummary"
+                            style="@style/NL.Caption"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/chevCooking"
+                            style="@style/NL.ExpandChevron" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/cookingContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="14dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.chip.ChipGroup
+                            android:id="@+id/chipsCookingStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:chipSpacingHorizontal="8dp"
+                            app:selectionRequired="true"
+                            app:singleSelection="true">
+
+                            <com.google.android.material.chip.Chip
+                                android:id="@+id/chipStyleHomestyle"
+                                style="@style/Widget.NutriLens.Chip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/style_less_oil" />
+
+                            <com.google.android.material.chip.Chip
+                                android:id="@+id/chipStyleStandard"
+                                style="@style/Widget.NutriLens.Chip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:text="@string/style_standard" />
+
+                            <com.google.android.material.chip.Chip
+                                android:id="@+id/chipStyleRestaurant"
+                                style="@style/Widget.NutriLens.Chip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/style_extra_oil" />
+                        </com.google.android.material.chip.ChipGroup>
+
+                        <TextView
+                            style="@style/NL.Caption"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/cooking_style_note" />
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/dividerCooking"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="16dp"
+                        android:background="@color/outline" />
+
+                    <LinearLayout
+                        android:id="@+id/rowNutrients"
+                        style="@style/NL.ExpandRow">
+
+                        <TextView
+                            style="@style/NL.Value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/all_nutrients" />
+
+                        <TextView
+                            android:id="@+id/tvGrams"
+                            style="@style/NL.Caption"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/chevNutrients"
+                            style="@style/NL.ExpandChevron" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/nutrientsContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="16dp"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:id="@+id/factsRows"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" />
+
+                        <TextView
+                            style="@style/NL.Caption"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="14dp"
+                            android:text="@string/energy_from_each_macronutrient" />
+
+                        <LinearLayout
+                            android:id="@+id/macroBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_marginTop="6dp"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:id="@+id/barProtein"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/macro_protein" />
+
+                            <View
+                                android:id="@+id/barCarbs"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/macro_carbs" />
+
+                            <View
+                                android:id="@+id/barFat"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/macro_fat" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tvMacroLegend"
+                            style="@style/NL.Caption"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp" />
+
+                        <TextView
+                            android:id="@+id/tvSource"
+                            style="@style/NL.Caption"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="16dp"
+                        android:background="@color/outline" />
+
+                    <LinearLayout
+                        android:id="@+id/rowScore"
+                        style="@style/NL.ExpandRow">
+
+                        <TextView
+                            style="@style/NL.Value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/nutrition_score" />
+
+                        <TextView
+                            android:id="@+id/tvScoreSummary"
+                            style="@style/NL.Caption"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/chevScore"
+                            style="@style/NL.ExpandChevron" />
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/scoreCard"
+                        layout="@layout/layout_score_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Compare -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.NutriLens.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        style="@style/NL.Section"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/compare" />
+
+                    <TextView
+                        android:id="@+id/tvCompareHint"
+                        style="@style/NL.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/pick_another_food_to_see_both_side_by" />
+
+                    <LinearLayout
+                        android:id="@+id/compareTable"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnCompare"
+                        style="@style/Widget.NutriLens.Button.Tonal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/compare_with_another_food"
+                        app:icon="@drawable/ic_search" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- When it was eaten (logged with the bar below) -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.NutriLens.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        style="@style/NL.Section"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/when_eaten_title" />
+
+                    <LinearLayout
+                        android:id="@+id/rowTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:minHeight="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/NL.Body"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/eaten_at" />
+
+                        <TextView
+                            android:id="@+id/tvEatenAt"
+                            style="@style/NL.Value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="6dp"
+                            android:importantForAccessibility="no"
+                            android:src="@drawable/ic_edit"
+                            app:tint="?attr/colorOnSurfaceVariant" />
+                    </LinearLayout>
+
+                    <com.google.android.material.chip.ChipGroup
+                        android:id="@+id/chipsSlot"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        app:selectionRequired="true"
+                        app:singleSelection="true">
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/slotBreakfast"
+                            style="@style/Widget.NutriLens.Chip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/slot_breakfast_label" />
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/slotLunch"
+                            style="@style/Widget.NutriLens.Chip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/slot_lunch_label" />
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/slotSnacks"
+                            style="@style/Widget.NutriLens.Chip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/slot_snacks_label" />
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/slotDinner"
+                            style="@style/Widget.NutriLens.Chip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/slot_dinner_label" />
+                    </com.google.android.material.chip.ChipGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Always in reach: what will be logged and the button (same bar as the Result screen) -->
+    <LinearLayout
+        android:id="@+id/logBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/outline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvBarTotal"
+                    style="@style/NL.Section"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvBarPortion"
+                    style="@style/NL.Caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLog"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:minWidth="152dp"
+                android:text="@string/log_this_meal"
+                app:icon="@drawable/ic_check"
+                app:iconGravity="textStart" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colours that stay the same in light and dark mode -->
+<resources>
+    <!-- Filled brand shapes that carry white text/icons -->
+    <color name="brand_solid">#FF14874A</color>
+    <!-- Calorie ring gradient -->
+    <color name="ring_start">#FF3DDC84</color>
+    <color name="ring_end">#FF14874A</color>
+    <!-- Icon colours on the tiles (fixed, the tiles are light in both themes) -->
+    <color name="macro_protein_fixed">#FF3B5BDB</color>
+    <color name="macro_carbs_fixed">#FFD98A0B</color>
+    <color name="macro_fat_fixed">#FFE2503F</color>
+    <!-- White overlays for the camera screen -->
+    <color name="white_15">#26FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+</resources>
