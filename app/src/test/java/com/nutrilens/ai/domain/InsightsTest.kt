@@ -31,7 +31,8 @@ class InsightsTest {
             protein = protein, carbs = carbs, fat = fat, fiber = fiber, servingGrams = 100, imageUri = null,
             timestamp = at(day, hour))
 
-    private val today = at(20, 0)
+    /** Computed on use: a property initialiser would run before setUp() switches the time zone. */
+    private val today get() = at(20, 0)
 
     @Test fun emptyHistory() {
         val i = InsightsCalculator.compute(emptyList(), today, 7, 2000)
